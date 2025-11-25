@@ -6,9 +6,86 @@
 // Debug log
 console.log('Zodya Tarot JS loaded');
 
+// App Store URL
+const APP_STORE_URL = 'https://apps.apple.com/us/app/zodya-tarot-coffee-reading-ai/id6474906451';
+
+/**
+ * TikTok In-App Browser Detection & Workaround
+ * TikTok blocks App Store links in their WebView, so we detect it and show instructions
+ */
+function initTikTokWorkaround() {
+    const userAgent = navigator.userAgent || navigator.vendor || window.opera;
+
+    // Check for TikTok's in-app browser
+    const isTikTokBrowser = /musical_ly|BytedanceWebview|TikTok/i.test(userAgent);
+
+    // Check if URL has tiktok param (user opened in Safari from TikTok)
+    const urlParams = new URLSearchParams(window.location.search);
+    const fromTikTok = urlParams.get('from') === 'tiktok';
+
+    if (isTikTokBrowser) {
+        console.log('TikTok in-app browser detected');
+
+        // Add param to URL so Safari knows to redirect
+        if (!fromTikTok) {
+            const newUrl = new URL(window.location.href);
+            newUrl.searchParams.set('from', 'tiktok');
+            window.history.replaceState({}, '', newUrl);
+        }
+
+        showTikTokToast();
+    } else if (fromTikTok) {
+        // User opened in Safari from TikTok - redirect to App Store
+        console.log('Opened from TikTok in real browser - redirecting to App Store');
+        window.location.href = APP_STORE_URL;
+    }
+}
+
+/**
+ * Show toast message for TikTok users
+ */
+function showTikTokToast() {
+    // Create toast container if it doesn't exist
+    let toastContainer = document.getElementById('tiktok-toast');
+
+    if (!toastContainer) {
+        toastContainer = document.createElement('div');
+        toastContainer.id = 'tiktok-toast';
+        toastContainer.className = 'tiktok-toast';
+        toastContainer.innerHTML = `
+            <div class="tiktok-toast-bubble">
+                <div class="tiktok-toast-tail"></div>
+                <p>On <svg class="tiktok-icon" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M34.1451 0H26.0556V32.6956C26.0556 38.4348 21.3582 43.1304 15.6167 43.1304C9.87529 43.1304 5.17786 38.4348 5.17786 32.6956C5.17786 27.0435 9.78857 22.4348 15.3565 22.2609V14.0869C5.26458 14.2609 -2.82593 22.4348 -2.82593 32.6956C-2.82593 43.0435 5.43803 51 15.7034 51C25.9688 51 34.2318 42.8696 34.2318 32.6956V15.6522C37.5765 18.087 41.7536 19.4783 46.1041 19.5652V11.3913C39.4954 11.1304 34.1451 6.17391 34.1451 0Z" fill="black"/></svg> you need to tap on the <span class="dots-icon">•••</span> and then tap on <span class="highlight">"Open in browser"</span> to download the app for free.</p>
+            </div>
+        `;
+        document.body.appendChild(toastContainer);
+
+        // Animate in after a brief delay
+        setTimeout(() => {
+            toastContainer.classList.add('show');
+        }, 500);
+    }
+}
+
+/**
+ * Close TikTok toast
+ */
+function closeTikTokToast() {
+    const toast = document.getElementById('tiktok-toast');
+    if (toast) {
+        toast.classList.remove('show');
+        setTimeout(() => {
+            toast.remove();
+        }, 300);
+    }
+}
+
 // Wait for DOM to be fully loaded
 document.addEventListener('DOMContentLoaded', function() {
     console.log('DOM Content Loaded - Initializing...');
+
+    // Initialize TikTok workaround first
+    initTikTokWorkaround();
 
     // Initialize all features
     initNavbar();
