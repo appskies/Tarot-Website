@@ -1263,3 +1263,214 @@ h1, h2, h3, h4, h5, h6 {
         right: 30px;
     }
 }
+
+/* ===================================
+   Language Selector
+   =================================== */
+.language-selector {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin: 0 15px;
+}
+
+.lang-btn {
+    background: transparent;
+    border: 1px solid rgba(139, 92, 246, 0.3);
+    border-radius: 6px;
+    padding: 6px 12px;
+    color: var(--text-muted);
+    font-family: var(--font-body);
+    font-size: 0.85rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.lang-btn:hover {
+    border-color: var(--accent-gold);
+    color: var(--accent-gold);
+}
+
+.lang-btn.active {
+    background: var(--accent-gold);
+    border-color: var(--accent-gold);
+    color: var(--primary-dark);
+}
+
+/* Mobile Language Selector */
+@media (max-width: 768px) {
+    .language-selector {
+        margin: 20px 0;
+        justify-content: center;
+    }
+
+    .lang-btn {
+        padding: 10px 20px;
+        font-size: 1rem;
+    }
+}
+
+/* ===================================
+   RTL (Right-to-Left) Support
+   =================================== */
+
+/* Arabic Typography */
+[dir="rtl"] body {
+    font-family: 'Noto Sans Arabic', 'Inter', sans-serif;
+    text-align: right;
+}
+
+[dir="rtl"] h1, [dir="rtl"] h2, [dir="rtl"] h3,
+[dir="rtl"] h4, [dir="rtl"] h5, [dir="rtl"] h6,
+[dir="rtl"] .navbar-name, [dir="rtl"] .footer-name {
+    font-family: 'Noto Sans Arabic', 'Cinzel', serif;
+}
+
+/* Navigation RTL */
+[dir="rtl"] .navbar-menu {
+    flex-direction: row-reverse;
+}
+
+[dir="rtl"] .navbar-cta {
+    margin-left: 0;
+    margin-right: 20px;
+}
+
+[dir="rtl"] .navbar-link::after {
+    left: auto;
+    right: 0;
+}
+
+/* Mobile Menu RTL */
+@media (max-width: 768px) {
+    [dir="rtl"] .navbar-menu {
+        right: auto;
+        left: -100%;
+        border-left: none;
+        border-right: 1px solid rgba(139, 92, 246, 0.2);
+    }
+
+    [dir="rtl"] .navbar-menu.active {
+        left: 0;
+        right: auto;
+    }
+
+    [dir="rtl"] .navbar-cta {
+        margin-right: 0;
+        margin-left: 0;
+    }
+}
+
+/* Hero Section RTL */
+[dir="rtl"] .hero-content {
+    direction: rtl;
+}
+
+[dir="rtl"] .hero-text {
+    text-align: right;
+}
+
+[dir="rtl"] .stat {
+    align-items: flex-end;
+}
+
+@media (max-width: 768px) {
+    [dir="rtl"] .stat {
+        align-items: center;
+        text-align: center;
+    }
+}
+
+/* Features RTL */
+[dir="rtl"] .feature-content {
+    text-align: right;
+}
+
+/* Benefits RTL */
+[dir="rtl"] .benefit-card {
+    text-align: right;
+}
+
+/* Testimonials Slider RTL */
+[dir="rtl"] .slider-prev {
+    left: auto;
+    right: 0;
+}
+
+[dir="rtl"] .slider-next {
+    right: auto;
+    left: 0;
+}
+
+[dir="rtl"] .slider-prev svg,
+[dir="rtl"] .slider-next svg {
+    transform: scaleX(-1);
+}
+
+[dir="rtl"] .testimonial-card {
+    text-align: right;
+}
+
+[dir="rtl"] .testimonial-author {
+    align-items: flex-end;
+}
+
+/* Rating Section RTL */
+[dir="rtl"] .rating-content {
+    text-align: right;
+}
+
+@media (max-width: 1024px) {
+    [dir="rtl"] .rating-content {
+        text-align: center;
+    }
+}
+
+/* Footer RTL */
+[dir="rtl"] .footer-links {
+    flex-direction: row-reverse;
+}
+
+@media (max-width: 768px) {
+    [dir="rtl"] .footer-links {
+        flex-direction: column;
+    }
+}
+
+/* Legal Pages RTL */
+[dir="rtl"] .legal-content {
+    text-align: right;
+}
+
+[dir="rtl"] .back-link {
+    flex-direction: row-reverse;
+}
+
+[dir="rtl"] .legal-section ul {
+    padding-left: 0;
+    padding-right: 25px;
+}
+
+/* TikTok Toast RTL */
+[dir="rtl"] .tiktok-toast-tail {
+    right: auto;
+    left: 40px;
+}
+
+[dir="rtl"] .tiktok-toast-bubble p {
+    text-align: right;
+}
+
+/* Legal Page Language Selector */
+.legal-lang-selector {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 1000;
+}
+
+[dir="rtl"] .legal-lang-selector {
+    right: auto;
+    left: 20px;
+}

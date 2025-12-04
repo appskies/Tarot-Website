@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="ltr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -21,6 +21,11 @@
     <meta property="twitter:description" content="Experience mystical tarot readings and fortune telling. Tarot, Coffee Reading, Palm Reading & Daily Horoscopes.">
     <meta property="twitter:image" content="Assets/zodya-tarot-coffee-reading-ai.png">
 
+    <!-- Language Alternates -->
+    <link rel="alternate" hreflang="en" href="https://zodyatarot.app/">
+    <link rel="alternate" hreflang="ar" href="https://zodyatarot.app/?lang=ar">
+    <link rel="alternate" hreflang="x-default" href="https://zodyatarot.app/">
+
     <!-- Favicon -->
     <link rel="icon" type="image/png" href="Assets/zodya-tarot-coffee-reading-ai.png">
     <link rel="apple-touch-icon" href="Assets/zodya-tarot-coffee-reading-ai.png">
@@ -28,7 +33,7 @@
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Inter:wght@300;400;500;600&family=Noto+Sans+Arabic:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
     <!-- Styles -->
     <link rel="stylesheet" href="css/style.css">
@@ -44,10 +49,14 @@
                 <span class="navbar-name">Zodya</span>
             </a>
             <div class="navbar-menu" id="navbarMenu">
-                <a href="/" class="navbar-link">Home</a>
-                <a href="mailto:appskiesltd@gmail.com" class="navbar-link">Contact</a>
+                <a href="/" class="navbar-link" data-i18n="nav.home">Home</a>
+                <a href="mailto:appskiesltd@gmail.com" class="navbar-link" data-i18n="nav.contact">Contact</a>
+                <div class="language-selector" id="language-selector">
+                    <button class="lang-btn active" data-lang="en" aria-label="English">EN</button>
+                    <button class="lang-btn" data-lang="ar" aria-label="Arabic">AR</button>
+                </div>
                 <a href="https://apps.apple.com/us/app/zodya-tarot-coffee-reading-ai/id6474906451" class="navbar-cta">
-                    <img src="Assets/whiteAppleBadge.svg" alt="Download on the App Store" class="navbar-badge">
+                    <img src="Assets/whiteAppleBadge.svg" alt="Download on the App Store" class="navbar-badge" data-i18n-attr="alt:nav.downloadAlt">
                 </a>
             </div>
             <button class="navbar-toggle" id="navbarToggle" aria-label="Toggle menu">
@@ -65,23 +74,23 @@
         </div>
         <div class="container hero-content">
             <div class="hero-text">
-                <h1 class="hero-title">Unlock Your Destiny with <span class="highlight">Mystical</span> Tarot</h1>
-                <p class="hero-subtitle">Experience authentic mystical readings and fortune telling. Tarot, Coffee Reading, Palm Reading & Daily Horoscopes.</p>
+                <h1 class="hero-title" data-i18n="hero.title">Unlock Your Destiny with <span class="highlight">Mystical</span> Tarot</h1>
+                <p class="hero-subtitle" data-i18n="hero.subtitle">Experience authentic mystical readings and fortune telling. Tarot, Coffee Reading, Palm Reading & Daily Horoscopes.</p>
                 <div class="hero-cta">
                     <a href="https://apps.apple.com/us/app/zodya-tarot-coffee-reading-ai/id6474906451?itscg=30200&itsct=apps_box_badge&mttnsubad=6474906451" class="app-store-link">
-                        <img src="Assets/whiteAppleBadge.svg" alt="Download on the App Store" class="app-store-badge">
+                        <img src="Assets/whiteAppleBadge.svg" alt="Download on the App Store" class="app-store-badge" data-i18n-attr="alt:nav.downloadAlt">
                     </a>
                 </div>
                 <div class="hero-stats">
                     <div class="stat">
                         <span class="stat-icon">⭐</span>
                         <span class="stat-value">4.4</span>
-                        <span class="stat-label">App Store Rating</span>
+                        <span class="stat-label" data-i18n="hero.statRating">App Store Rating</span>
                     </div>
                     <div class="stat">
                         <span class="stat-icon">🔮</span>
                         <span class="stat-value">1M+</span>
-                        <span class="stat-label">Readings Done</span>
+                        <span class="stat-label" data-i18n="hero.statReadings">Readings Done</span>
                     </div>
                 </div>
             </div>
@@ -94,8 +103,8 @@
     <!-- Features Section -->
     <section class="features" id="features">
         <div class="container">
-            <h2 class="section-title">Discover Your Path</h2>
-            <p class="section-subtitle">Multiple ways to explore your destiny</p>
+            <h2 class="section-title" data-i18n="features.sectionTitle">Discover Your Path</h2>
+            <p class="section-subtitle" data-i18n="features.sectionSubtitle">Multiple ways to explore your destiny</p>
 
             <div class="features-grid">
                 <!-- Feature 1: Tarot Reading -->
@@ -105,8 +114,8 @@
                     </div>
                     <div class="feature-content">
                         <span class="feature-icon">🔮</span>
-                        <h3 class="feature-title">Tarot Reading</h3>
-                        <p class="feature-description">Get accurate tarot interpretations with mystical guidance. Draw cards and receive personalized insights about your past, present, and future.</p>
+                        <h3 class="feature-title" data-i18n="features.tarot.title">Tarot Reading</h3>
+                        <p class="feature-description" data-i18n="features.tarot.description">Get accurate tarot interpretations with mystical guidance. Draw cards and receive personalized insights about your past, present, and future.</p>
                     </div>
                 </div>
 
@@ -117,8 +126,8 @@
                     </div>
                     <div class="feature-content">
                         <span class="feature-icon">☕</span>
-                        <h3 class="feature-title">Coffee Cup Reading</h3>
-                        <p class="feature-description">Upload your coffee cup photo for traditional Turkish fortune telling. Discover the hidden patterns that reveal your destiny.</p>
+                        <h3 class="feature-title" data-i18n="features.coffee.title">Coffee Cup Reading</h3>
+                        <p class="feature-description" data-i18n="features.coffee.description">Upload your coffee cup photo for traditional Turkish fortune telling. Discover the hidden patterns that reveal your destiny.</p>
                     </div>
                 </div>
 
@@ -129,8 +138,8 @@
                     </div>
                     <div class="feature-content">
                         <span class="feature-icon">✋</span>
-                        <h3 class="feature-title">Palm Reading</h3>
-                        <p class="feature-description">Discover your life path through detailed palm analysis. Learn about your heart line, head line, life line, and more.</p>
+                        <h3 class="feature-title" data-i18n="features.palm.title">Palm Reading</h3>
+                        <p class="feature-description" data-i18n="features.palm.description">Discover your life path through detailed palm analysis. Learn about your heart line, head line, life line, and more.</p>
                     </div>
                 </div>
 
@@ -141,8 +150,8 @@
                     </div>
                     <div class="feature-content">
                         <span class="feature-icon">⭐</span>
-                        <h3 class="feature-title">Daily Horoscope</h3>
-                        <p class="feature-description">Personalized daily, weekly, and monthly zodiac insights. Stay aligned with the stars and plan your days accordingly.</p>
+                        <h3 class="feature-title" data-i18n="features.horoscope.title">Daily Horoscope</h3>
+                        <p class="feature-description" data-i18n="features.horoscope.description">Personalized daily, weekly, and monthly zodiac insights. Stay aligned with the stars and plan your days accordingly.</p>
                     </div>
                 </div>
             </div>
@@ -152,26 +161,26 @@
     <!-- Why Zodya Section -->
     <section class="why-zodya" id="why">
         <div class="container">
-            <h2 class="section-title">Why Choose Zodya?</h2>
-            <p class="section-subtitle">The most trusted fortune telling app</p>
+            <h2 class="section-title" data-i18n="whyZodya.sectionTitle">Why Choose Zodya?</h2>
+            <p class="section-subtitle" data-i18n="whyZodya.sectionSubtitle">The most trusted fortune telling app</p>
 
             <div class="benefits-grid">
                 <div class="benefit-card">
                     <span class="benefit-icon">🎯</span>
-                    <h3 class="benefit-title">Accurate Predictions</h3>
-                    <p class="benefit-description">Every detail is analyzed for precise readings. Experience authentic fortune telling with mystical guidance.</p>
+                    <h3 class="benefit-title" data-i18n="whyZodya.accurate.title">Accurate Predictions</h3>
+                    <p class="benefit-description" data-i18n="whyZodya.accurate.description">Every detail is analyzed for precise readings. Experience authentic fortune telling with mystical guidance.</p>
                 </div>
 
                 <div class="benefit-card">
                     <span class="benefit-icon">🔐</span>
-                    <h3 class="benefit-title">Private & Secure</h3>
-                    <p class="benefit-description">Your readings are completely confidential and encrypted. We never share your personal information with third parties.</p>
+                    <h3 class="benefit-title" data-i18n="whyZodya.private.title">Private & Secure</h3>
+                    <p class="benefit-description" data-i18n="whyZodya.private.description">Your readings are completely confidential and encrypted. We never share your personal information with third parties.</p>
                 </div>
 
                 <div class="benefit-card">
                     <span class="benefit-icon">✨</span>
-                    <h3 class="benefit-title">Multiple Reading Types</h3>
-                    <p class="benefit-description">Tarot, coffee, palm, and horoscope - all in one app. Everything you need for spiritual guidance in a single place.</p>
+                    <h3 class="benefit-title" data-i18n="whyZodya.multiple.title">Multiple Reading Types</h3>
+                    <p class="benefit-description" data-i18n="whyZodya.multiple.description">Tarot, coffee, palm, and horoscope - all in one app. Everything you need for spiritual guidance in a single place.</p>
                 </div>
             </div>
         </div>
@@ -194,11 +203,11 @@
     <!-- Testimonials Section -->
     <section class="testimonials" id="reviews">
         <div class="container">
-            <h2 class="section-title">What Our Users Say</h2>
-            <p class="section-subtitle">Join thousands of satisfied users</p>
+            <h2 class="section-title" data-i18n="testimonials.sectionTitle">What Our Users Say</h2>
+            <p class="section-subtitle" data-i18n="testimonials.sectionSubtitle">Join thousands of satisfied users</p>
 
             <div class="testimonials-slider">
-                <button class="slider-arrow slider-prev" aria-label="Previous testimonial">
+                <button class="slider-arrow slider-prev" aria-label="Previous testimonial" data-i18n-attr="aria-label:slider.prevAriaLabel">
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                         <path d="M15 18l-6-6 6-6"/>
                     </svg>
@@ -208,52 +217,52 @@
                     <div class="slider-track">
                         <div class="testimonial-card" data-index="0">
                             <div class="testimonial-stars">⭐⭐⭐⭐⭐</div>
-                            <p class="testimonial-text">"The tarot readings are incredibly accurate! I use it every morning to set my intentions for the day. It's become an essential part of my routine."</p>
+                            <p class="testimonial-text" data-i18n="testimonials.review1.text">"The tarot readings are incredibly accurate! I use it every morning to set my intentions for the day. It's become an essential part of my routine."</p>
                             <div class="testimonial-author">
-                                <span class="author-name">Sarah M.</span>
-                                <span class="author-location">New York, USA</span>
+                                <span class="author-name" data-i18n="testimonials.review1.author">Sarah M.</span>
+                                <span class="author-location" data-i18n="testimonials.review1.location">New York, USA</span>
                             </div>
                         </div>
 
                         <div class="testimonial-card" data-index="1">
                             <div class="testimonial-stars">⭐⭐⭐⭐⭐</div>
-                            <p class="testimonial-text">"Finally an app that does authentic Turkish coffee reading! My grandmother used to read my cup, and this brings back those memories with amazing accuracy."</p>
+                            <p class="testimonial-text" data-i18n="testimonials.review2.text">"Finally an app that does authentic Turkish coffee reading! My grandmother used to read my cup, and this brings back those memories with amazing accuracy."</p>
                             <div class="testimonial-author">
-                                <span class="author-name">Elif K.</span>
-                                <span class="author-location">Istanbul, Turkey</span>
+                                <span class="author-name" data-i18n="testimonials.review2.author">Elif K.</span>
+                                <span class="author-location" data-i18n="testimonials.review2.location">Istanbul, Turkey</span>
                             </div>
                         </div>
 
                         <div class="testimonial-card" data-index="2">
                             <div class="testimonial-stars">⭐⭐⭐⭐⭐</div>
-                            <p class="testimonial-text">"My daily horoscopes are spot on. Highly recommend! The personalization makes it feel like it was written just for me."</p>
+                            <p class="testimonial-text" data-i18n="testimonials.review3.text">"My daily horoscopes are spot on. Highly recommend! The personalization makes it feel like it was written just for me."</p>
                             <div class="testimonial-author">
-                                <span class="author-name">James L.</span>
-                                <span class="author-location">London, UK</span>
+                                <span class="author-name" data-i18n="testimonials.review3.author">James L.</span>
+                                <span class="author-location" data-i18n="testimonials.review3.location">London, UK</span>
                             </div>
                         </div>
 
                         <div class="testimonial-card" data-index="3">
                             <div class="testimonial-stars">⭐⭐⭐⭐⭐</div>
-                            <p class="testimonial-text">"Love the palm reading feature. So detailed and insightful. I learned things about myself I never knew before!"</p>
+                            <p class="testimonial-text" data-i18n="testimonials.review4.text">"Love the palm reading feature. So detailed and insightful. I learned things about myself I never knew before!"</p>
                             <div class="testimonial-author">
-                                <span class="author-name">Maria G.</span>
-                                <span class="author-location">Barcelona, Spain</span>
+                                <span class="author-name" data-i18n="testimonials.review4.author">Maria G.</span>
+                                <span class="author-location" data-i18n="testimonials.review4.location">Barcelona, Spain</span>
                             </div>
                         </div>
 
                         <div class="testimonial-card" data-index="4">
                             <div class="testimonial-stars">⭐⭐⭐⭐⭐</div>
-                            <p class="testimonial-text">"Best fortune telling app I've ever used. Worth every penny! The variety of readings keeps me coming back every day."</p>
+                            <p class="testimonial-text" data-i18n="testimonials.review5.text">"Best fortune telling app I've ever used. Worth every penny! The variety of readings keeps me coming back every day."</p>
                             <div class="testimonial-author">
-                                <span class="author-name">David R.</span>
-                                <span class="author-location">Sydney, Australia</span>
+                                <span class="author-name" data-i18n="testimonials.review5.author">David R.</span>
+                                <span class="author-location" data-i18n="testimonials.review5.location">Sydney, Australia</span>
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <button class="slider-arrow slider-next" aria-label="Next testimonial">
+                <button class="slider-arrow slider-next" aria-label="Next testimonial" data-i18n-attr="aria-label:slider.nextAriaLabel">
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                         <path d="M9 18l6-6-6-6"/>
                     </svg>
@@ -279,16 +288,16 @@
                         <span>⭐⭐⭐⭐⭐</span>
                     </div>
                     <div class="rating-score">4.4 <span class="rating-max">/ 5</span></div>
-                    <p class="rating-text">Based on App Store reviews</p>
-                    <p class="rating-subtext">Join thousands of users discovering their destiny</p>
+                    <p class="rating-text" data-i18n="rating.basedOn">Based on App Store reviews</p>
+                    <p class="rating-subtext" data-i18n="rating.joinText">Join thousands of users discovering their destiny</p>
                 </div>
                 <div class="rating-badges">
                     <a href="https://apps.apple.com/us/app/zodya-tarot-coffee-reading-ai/id6474906451?itscg=30200&itsct=apps_box_badge&mttnsubad=6474906451" class="app-store-link">
-                        <img src="Assets/whiteAppleBadge.svg" alt="Download on the App Store" class="app-store-badge-large">
+                        <img src="Assets/whiteAppleBadge.svg" alt="Download on the App Store" class="app-store-badge-large" data-i18n-attr="alt:nav.downloadAlt">
                     </a>
                     <div class="qr-code">
                         <img src="Assets/qr-code.png" alt="Scan to Download">
-                        <span>Scan to download</span>
+                        <span data-i18n="rating.scanToDownload">Scan to download</span>
                     </div>
                 </div>
             </div>
@@ -298,10 +307,10 @@
     <!-- Final CTA Section -->
     <section class="final-cta">
         <div class="container">
-            <h2 class="cta-title">Start Your Free Reading Today</h2>
-            <p class="cta-subtitle">Download Zodya and unlock the mysteries of your future</p>
+            <h2 class="cta-title" data-i18n="cta.title">Start Your Free Reading Today</h2>
+            <p class="cta-subtitle" data-i18n="cta.subtitle">Download Zodya and unlock the mysteries of your future</p>
             <a href="https://apps.apple.com/us/app/zodya-tarot-coffee-reading-ai/id6474906451?itscg=30200&itsct=apps_box_badge&mttnsubad=6474906451" class="app-store-link">
-                <img src="Assets/whiteAppleBadge.svg" alt="Download on the App Store" class="app-store-badge">
+                <img src="Assets/whiteAppleBadge.svg" alt="Download on the App Store" class="app-store-badge" data-i18n-attr="alt:nav.downloadAlt">
             </a>
         </div>
     </section>
@@ -315,16 +324,17 @@
                     <span class="footer-name">Zodya</span>
                 </div>
                 <nav class="footer-links">
-                    <a href="privacy.html">Privacy Policy</a>
-                    <a href="terms.html">Terms of Service</a>
-                    <a href="mailto:appskiesltd@gmail.com">Contact</a>
+                    <a href="privacy.html" data-i18n="footer.privacy">Privacy Policy</a>
+                    <a href="terms.html" data-i18n="footer.terms">Terms of Service</a>
+                    <a href="mailto:appskiesltd@gmail.com" data-i18n="footer.contact">Contact</a>
                 </nav>
-                <p class="footer-copyright">&copy; 2024 Zodya. All rights reserved.</p>
+                <p class="footer-copyright">&copy; <span data-i18n="footer.copyright">2024 Zodya. All rights reserved.</span></p>
             </div>
         </div>
     </footer>
 
     <!-- Scripts -->
+    <script src="js/i18n.js"></script>
     <script src="js/main.js"></script>
 </body>
 </html>

@@ -1,10 +1,15 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="ltr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Zodya Privacy Policy - Learn how we protect your data and privacy.">
     <title>Privacy Policy - Zodya</title>
+
+    <!-- Language Alternates -->
+    <link rel="alternate" hreflang="en" href="https://zodyatarot.app/privacy.html">
+    <link rel="alternate" hreflang="ar" href="https://zodyatarot.app/privacy.html?lang=ar">
+    <link rel="alternate" hreflang="x-default" href="https://zodyatarot.app/privacy.html">
 
     <!-- Favicon -->
     <link rel="icon" type="image/png" href="Assets/zodya-tarot-coffee-reading-ai.png">
@@ -13,7 +18,7 @@
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Inter:wght@300;400;500;600&family=Noto+Sans+Arabic:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
     <!-- Styles -->
     <link rel="stylesheet" href="css/style.css">
@@ -100,13 +105,21 @@
     </style>
 </head>
 <body>
+    <!-- Language Selector for Legal Pages -->
+    <div class="legal-lang-selector">
+        <div class="language-selector" id="language-selector">
+            <button class="lang-btn active" data-lang="en" aria-label="English">EN</button>
+            <button class="lang-btn" data-lang="ar" aria-label="Arabic">AR</button>
+        </div>
+    </div>
+
     <section class="legal-page">
         <div class="container">
             <div class="legal-content">
-                <a href="/" class="back-link">← Back to Home</a>
+                <a href="/" class="back-link" data-i18n="privacy.backLink">← Back to Home</a>
 
-                <h1 class="legal-title">Privacy Policy</h1>
-                <p class="legal-updated">Last updated: November 2024</p>
+                <h1 class="legal-title" data-i18n="privacy.title">Privacy Policy</h1>
+                <p class="legal-updated" data-i18n="privacy.lastUpdated">Last updated: November 2024</p>
 
                 <div class="legal-section">
                     <h2>1. Introduction</h2>
@@ -324,13 +337,16 @@
                     <span class="footer-name">Zodya</span>
                 </div>
                 <nav class="footer-links">
-                    <a href="privacy.html">Privacy Policy</a>
-                    <a href="terms.html">Terms of Service</a>
-                    <a href="mailto:appskiesltd@gmail.com">Contact</a>
+                    <a href="privacy.html" data-i18n="footer.privacy">Privacy Policy</a>
+                    <a href="terms.html" data-i18n="footer.terms">Terms of Service</a>
+                    <a href="mailto:appskiesltd@gmail.com" data-i18n="footer.contact">Contact</a>
                 </nav>
-                <p class="footer-copyright">&copy; 2024 Zodya. All rights reserved.</p>
+                <p class="footer-copyright">&copy; <span data-i18n="footer.copyright">2024 Zodya. All rights reserved.</span></p>
             </div>
         </div>
     </footer>
+
+    <!-- Scripts -->
+    <script src="js/i18n.js"></script>
 </body>
 </html>

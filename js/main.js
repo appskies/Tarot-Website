@@ -356,8 +356,14 @@ function initTestimonialSlider() {
 
     // Update slider position and active states
     function updateSlider() {
-        // Move track
-        track.style.transform = `translateX(-${currentIndex * 100}%)`;
+        // Check if RTL mode
+        const isRTL = document.documentElement.getAttribute('dir') === 'rtl';
+
+        // Move track (RTL uses positive values)
+        const translateValue = isRTL
+            ? `translateX(${currentIndex * 100}%)`
+            : `translateX(-${currentIndex * 100}%)`;
+        track.style.transform = translateValue;
 
         // Update cards
         cards.forEach((card, index) => {
@@ -413,17 +419,32 @@ function initTestimonialSlider() {
         if (!isDragging) return;
         const endX = e.changedTouches[0].clientX;
         const diff = startX - endX;
+        const isRTL = document.documentElement.getAttribute('dir') === 'rtl';
 
         if (Math.abs(diff) > 50) {
-            if (diff > 0) {
-                goToSlide(currentIndex + 1);
+            // Invert swipe direction for RTL
+            if (isRTL) {
+                if (diff > 0) {
+                    goToSlide(currentIndex - 1);
+                } else {
+                    goToSlide(currentIndex + 1);
+                }
             } else {
-                goToSlide(currentIndex - 1);
+                if (diff > 0) {
+                    goToSlide(currentIndex + 1);
+                } else {
+                    goToSlide(currentIndex - 1);
+                }
             }
         }
 
         isDragging = false;
         startAutoPlay();
+    });
+
+    // Listen for language changes and update slider
+    document.addEventListener('i18n:languageChanged', () => {
+        updateSlider();
     });
 
     // Keyboard navigation
