@@ -197,50 +197,74 @@
             <h2 class="section-title">What Our Users Say</h2>
             <p class="section-subtitle">Join thousands of satisfied users</p>
 
-            <div class="testimonials-grid">
-                <div class="testimonial-card">
-                    <div class="testimonial-stars">⭐⭐⭐⭐⭐</div>
-                    <p class="testimonial-text">"The tarot readings are incredibly accurate! I use it every morning to set my intentions for the day. It's become an essential part of my routine."</p>
-                    <div class="testimonial-author">
-                        <span class="author-name">Sarah M.</span>
-                        <span class="author-location">New York, USA</span>
+            <div class="testimonials-slider">
+                <button class="slider-arrow slider-prev" aria-label="Previous testimonial">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M15 18l-6-6 6-6"/>
+                    </svg>
+                </button>
+
+                <div class="slider-container">
+                    <div class="slider-track">
+                        <div class="testimonial-card" data-index="0">
+                            <div class="testimonial-stars">⭐⭐⭐⭐⭐</div>
+                            <p class="testimonial-text">"The tarot readings are incredibly accurate! I use it every morning to set my intentions for the day. It's become an essential part of my routine."</p>
+                            <div class="testimonial-author">
+                                <span class="author-name">Sarah M.</span>
+                                <span class="author-location">New York, USA</span>
+                            </div>
+                        </div>
+
+                        <div class="testimonial-card" data-index="1">
+                            <div class="testimonial-stars">⭐⭐⭐⭐⭐</div>
+                            <p class="testimonial-text">"Finally an app that does authentic Turkish coffee reading! My grandmother used to read my cup, and this brings back those memories with amazing accuracy."</p>
+                            <div class="testimonial-author">
+                                <span class="author-name">Elif K.</span>
+                                <span class="author-location">Istanbul, Turkey</span>
+                            </div>
+                        </div>
+
+                        <div class="testimonial-card" data-index="2">
+                            <div class="testimonial-stars">⭐⭐⭐⭐⭐</div>
+                            <p class="testimonial-text">"My daily horoscopes are spot on. Highly recommend! The personalization makes it feel like it was written just for me."</p>
+                            <div class="testimonial-author">
+                                <span class="author-name">James L.</span>
+                                <span class="author-location">London, UK</span>
+                            </div>
+                        </div>
+
+                        <div class="testimonial-card" data-index="3">
+                            <div class="testimonial-stars">⭐⭐⭐⭐⭐</div>
+                            <p class="testimonial-text">"Love the palm reading feature. So detailed and insightful. I learned things about myself I never knew before!"</p>
+                            <div class="testimonial-author">
+                                <span class="author-name">Maria G.</span>
+                                <span class="author-location">Barcelona, Spain</span>
+                            </div>
+                        </div>
+
+                        <div class="testimonial-card" data-index="4">
+                            <div class="testimonial-stars">⭐⭐⭐⭐⭐</div>
+                            <p class="testimonial-text">"Best fortune telling app I've ever used. Worth every penny! The variety of readings keeps me coming back every day."</p>
+                            <div class="testimonial-author">
+                                <span class="author-name">David R.</span>
+                                <span class="author-location">Sydney, Australia</span>
+                            </div>
+                        </div>
                     </div>
                 </div>
 
-                <div class="testimonial-card">
-                    <div class="testimonial-stars">⭐⭐⭐⭐⭐</div>
-                    <p class="testimonial-text">"Finally an app that does authentic Turkish coffee reading! My grandmother used to read my cup, and this brings back those memories with amazing accuracy."</p>
-                    <div class="testimonial-author">
-                        <span class="author-name">Elif K.</span>
-                        <span class="author-location">Istanbul, Turkey</span>
-                    </div>
-                </div>
+                <button class="slider-arrow slider-next" aria-label="Next testimonial">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M9 18l6-6-6-6"/>
+                    </svg>
+                </button>
 
-                <div class="testimonial-card">
-                    <div class="testimonial-stars">⭐⭐⭐⭐⭐</div>
-                    <p class="testimonial-text">"My daily horoscopes are spot on. Highly recommend! The personalization makes it feel like it was written just for me."</p>
-                    <div class="testimonial-author">
-                        <span class="author-name">James L.</span>
-                        <span class="author-location">London, UK</span>
-                    </div>
-                </div>
-
-                <div class="testimonial-card">
-                    <div class="testimonial-stars">⭐⭐⭐⭐⭐</div>
-                    <p class="testimonial-text">"Love the palm reading feature. So detailed and insightful. I learned things about myself I never knew before!"</p>
-                    <div class="testimonial-author">
-                        <span class="author-name">Maria G.</span>
-                        <span class="author-location">Barcelona, Spain</span>
-                    </div>
-                </div>
-
-                <div class="testimonial-card">
-                    <div class="testimonial-stars">⭐⭐⭐⭐⭐</div>
-                    <p class="testimonial-text">"Best fortune telling app I've ever used. Worth every penny! The variety of readings keeps me coming back every day."</p>
-                    <div class="testimonial-author">
-                        <span class="author-name">David R.</span>
-                        <span class="author-location">Sydney, Australia</span>
-                    </div>
+                <div class="slider-dots">
+                    <button class="slider-dot active" data-index="0" aria-label="Go to testimonial 1"></button>
+                    <button class="slider-dot" data-index="1" aria-label="Go to testimonial 2"></button>
+                    <button class="slider-dot" data-index="2" aria-label="Go to testimonial 3"></button>
+                    <button class="slider-dot" data-index="3" aria-label="Go to testimonial 4"></button>
+                    <button class="slider-dot" data-index="4" aria-label="Go to testimonial 5"></button>
                 </div>
             </div>
         </div>

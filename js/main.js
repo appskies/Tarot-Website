@@ -93,6 +93,7 @@ document.addEventListener('DOMContentLoaded', function() {
     initSmoothScroll();
     initParallaxEffect();
     initCardHoverEffect();
+    initTestimonialSlider();
 });
 
 /**
@@ -296,6 +297,161 @@ function initCardHoverEffect() {
     });
 
     console.log(`Added hover effects to ${cards.length} cards`);
+}
+
+/**
+ * Testimonial Slider - Mystical Cards Style
+ * Single card view with fade transitions and dot navigation
+ */
+function initTestimonialSlider() {
+    console.log('Initializing testimonial slider...');
+
+    const slider = document.querySelector('.testimonials-slider');
+    if (!slider) {
+        console.log('Slider not found, skipping initialization');
+        return;
+    }
+
+    const track = slider.querySelector('.slider-track');
+    const cards = slider.querySelectorAll('.testimonial-card');
+    const dots = slider.querySelectorAll('.slider-dot');
+    const prevBtn = slider.querySelector('.slider-prev');
+    const nextBtn = slider.querySelector('.slider-next');
+
+    let currentIndex = 0;
+    let autoPlayInterval;
+    const autoPlayDelay = 5000; // 5 seconds
+    let startX = 0;
+    let isDragging = false;
+
+    // Initialize first card as active
+    updateSlider();
+
+    // Auto-play functionality
+    function startAutoPlay() {
+        stopAutoPlay();
+        autoPlayInterval = setInterval(() => {
+            goToSlide(currentIndex + 1);
+        }, autoPlayDelay);
+    }
+
+    function stopAutoPlay() {
+        if (autoPlayInterval) {
+            clearInterval(autoPlayInterval);
+        }
+    }
+
+    // Go to specific slide
+    function goToSlide(index) {
+        // Loop around
+        if (index >= cards.length) {
+            currentIndex = 0;
+        } else if (index < 0) {
+            currentIndex = cards.length - 1;
+        } else {
+            currentIndex = index;
+        }
+        updateSlider();
+    }
+
+    // Update slider position and active states
+    function updateSlider() {
+        // Move track
+        track.style.transform = `translateX(-${currentIndex * 100}%)`;
+
+        // Update cards
+        cards.forEach((card, index) => {
+            card.classList.remove('active');
+            if (index === currentIndex) {
+                card.classList.add('active');
+            }
+        });
+
+        // Update dots
+        dots.forEach((dot, index) => {
+            dot.classList.remove('active');
+            if (index === currentIndex) {
+                dot.classList.add('active');
+            }
+        });
+    }
+
+    // Event Listeners
+    prevBtn.addEventListener('click', () => {
+        goToSlide(currentIndex - 1);
+        stopAutoPlay();
+        startAutoPlay();
+    });
+
+    nextBtn.addEventListener('click', () => {
+        goToSlide(currentIndex + 1);
+        stopAutoPlay();
+        startAutoPlay();
+    });
+
+    // Dot navigation
+    dots.forEach((dot, index) => {
+        dot.addEventListener('click', () => {
+            goToSlide(index);
+            stopAutoPlay();
+            startAutoPlay();
+        });
+    });
+
+    // Touch/Swipe support
+    slider.addEventListener('touchstart', (e) => {
+        startX = e.touches[0].clientX;
+        isDragging = true;
+        stopAutoPlay();
+    }, { passive: true });
+
+    slider.addEventListener('touchmove', (e) => {
+        if (!isDragging) return;
+    }, { passive: true });
+
+    slider.addEventListener('touchend', (e) => {
+        if (!isDragging) return;
+        const endX = e.changedTouches[0].clientX;
+        const diff = startX - endX;
+
+        if (Math.abs(diff) > 50) {
+            if (diff > 0) {
+                goToSlide(currentIndex + 1);
+            } else {
+                goToSlide(currentIndex - 1);
+            }
+        }
+
+        isDragging = false;
+        startAutoPlay();
+    });
+
+    // Keyboard navigation
+    document.addEventListener('keydown', (e) => {
+        const sliderRect = slider.getBoundingClientRect();
+        const isInView = sliderRect.top < window.innerHeight && sliderRect.bottom > 0;
+
+        if (isInView) {
+            if (e.key === 'ArrowLeft') {
+                goToSlide(currentIndex - 1);
+                stopAutoPlay();
+                startAutoPlay();
+            } else if (e.key === 'ArrowRight') {
+                goToSlide(currentIndex + 1);
+                stopAutoPlay();
+                startAutoPlay();
+            }
+        }
+    });
+
+    // Pause on hover
+    slider.addEventListener('mouseenter', stopAutoPlay);
+    slider.addEventListener('mouseleave', startAutoPlay);
+
+    // Start auto-play
+    startAutoPlay();
+
+    console.log('Testimonial slider initialized with', cards.length, 'cards');
 }
 
 /**
