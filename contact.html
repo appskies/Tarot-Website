@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact Zodya - Get in touch for support or inquiries about tarot readings and fortune telling.">
+    <title>Contact - Zodya</title>
+    <link rel="icon" type="image/png" href="Assets/zodya-tarot-coffee-reading-ai.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&family=Noto+Sans+Arabic:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container navbar-container">
+            <a href="/" class="navbar-brand">
+                <img src="Assets/zodya-tarot-coffee-reading-ai.png" alt="Zodya Logo" class="navbar-logo">
+                <span class="navbar-name">Zodya</span>
+            </a>
+            <div class="navbar-menu" id="navbarMenu">
+                <a href="index.html" class="navbar-link" data-i18n="nav.home">Home</a>
+                <a href="contact.html" class="navbar-link active" data-i18n="nav.contact">Contact</a>
+                <div class="language-selector" id="language-selector">
+                    <button class="lang-btn active" data-lang="en">EN</button>
+                    <button class="lang-btn" data-lang="ar">AR</button>
+                </div>
+                <a href="https://apps.apple.com/us/app/zodya-tarot-coffee-reading-ai/id6474906451" class="navbar-cta">
+                    <img src="Assets/whiteAppleBadge.svg" alt="Download" class="navbar-badge">
+                </a>
+            </div>
+            <button class="navbar-toggle" id="navbarToggle"><span class="navbar-toggle-icon"></span></button>
+        </div>
+    </nav>
+
+    <section class="contact-section">
+        <div class="container">
+            <div class="contact-header">
+                <h1 class="section-title" data-i18n="contact.title">Get In Touch</h1>
+                <p class="section-subtitle" data-i18n="contact.subtitle">Have questions? We'd love to hear from you.</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="info-item">
+                        <span class="info-icon">✉️</span>
+                        <div>
+                            <h3 data-i18n="contact.info.emailTitle">Email</h3>
+                            <p data-i18n="contact.info.emailValue">appskiesltd@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-icon">🔮</span>
+                        <div>
+                            <h3 data-i18n="contact.info.responseTitle">Quick Response</h3>
+                            <p data-i18n="contact.info.responseValue">We typically respond within 24 hours</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form-wrapper">
+                    <form class="contact-form" id="contactForm" action="https://api.web3forms.com/submit" method="POST">
+                        <input type="hidden" name="access_key" value="e549a701-abc5-4e7c-9537-79efd76bed1f">
+                        <input type="checkbox" name="botcheck" style="display: none;">
+                        <div class="form-group">
+                            <label for="name" data-i18n="contact.form.nameLabel">Name</label>
+                            <input type="text" id="name" name="name" data-i18n-attr="placeholder:contact.form.namePlaceholder" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email" data-i18n="contact.form.emailLabel">Email</label>
+                            <input type="email" id="email" name="email" data-i18n-attr="placeholder:contact.form.emailPlaceholder" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message" data-i18n="contact.form.messageLabel">Message</label>
+                            <textarea id="message" name="message" data-i18n-attr="placeholder:contact.form.messagePlaceholder" rows="5" required></textarea>
+                        </div>
+                        <div class="h-captcha" data-captcha="true"></div>
+                        <button type="submit" class="btn btn-primary">
+                            <span class="btn-text" data-i18n="contact.form.submitBtn">Send Message</span>
+                            <span class="btn-loader" style="display: none;"><span class="spinner"></span> <span data-i18n="contact.form.sending">Sending...</span></span>
+                        </button>
+                        <div id="formStatus" class="form-status" style="display: none;"></div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <img src="Assets/zodya-tarot-coffee-reading-ai.png" alt="Zodya Logo" class="footer-logo">
+                    <span class="footer-name">Zodya</span>
+                </div>
+                <nav class="footer-links">
+                    <a href="privacy.html">Privacy Policy</a>
+                    <a href="terms.html">Terms of Service</a>
+                    <a href="contact.html" data-i18n="nav.contact">Contact</a>
+                </nav>
+                <p class="footer-copyright">&copy; 2024 Zodya. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/i18n.js"></script>
+    <script src="js/main.js"></script>
+    <script src="https://web3forms.com/client/script.js" async defer></script>
+</body>
+</html>

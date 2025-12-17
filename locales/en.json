@@ -523,5 +523,28 @@
       "email": "Email: appskiesltd@gmail.com",
       "p2": "We will make reasonable efforts to respond to your inquiries in a timely manner."
     }
+  },
+  "contact": {
+    "title": "Get In Touch",
+    "subtitle": "Have questions? We'd love to hear from you. Send us a message and we'll respond as soon as possible.",
+    "form": {
+      "nameLabel": "Name",
+      "namePlaceholder": "Your Name",
+      "emailLabel": "Email",
+      "emailPlaceholder": "your@email.com",
+      "messageLabel": "Message",
+      "messagePlaceholder": "Your message...",
+      "submitBtn": "Send Message",
+      "sending": "Sending...",
+      "successMessage": "Thank you! Your message has been sent successfully.",
+      "errorMessage": "Sorry, there was an error. Please try again or email us directly.",
+      "requiredFields": "Please fill in all required fields."
+    },
+    "info": {
+      "emailTitle": "Email",
+      "emailValue": "appskiesltd@gmail.com",
+      "responseTitle": "Quick Response",
+      "responseValue": "We typically respond within 24 hours"
+    }
   }
 }

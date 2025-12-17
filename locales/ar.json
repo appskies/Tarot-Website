@@ -523,5 +523,28 @@
       "email": "البريد الإلكتروني: appskiesltd@gmail.com",
       "p2": "سنبذل جهوداً معقولة للرد على استفساراتك في الوقت المناسب."
     }
+  },
+  "contact": {
+    "title": "تواصل معنا",
+    "subtitle": "هل لديك أسئلة؟ نحب أن نسمع منك. أرسل لنا رسالة وسنرد في أقرب وقت ممكن.",
+    "form": {
+      "nameLabel": "الاسم",
+      "namePlaceholder": "اسمك",
+      "emailLabel": "البريد الإلكتروني",
+      "emailPlaceholder": "your@email.com",
+      "messageLabel": "الرسالة",
+      "messagePlaceholder": "رسالتك...",
+      "submitBtn": "إرسال الرسالة",
+      "sending": "جارٍ الإرسال...",
+      "successMessage": "شكراً لك! تم إرسال رسالتك بنجاح.",
+      "errorMessage": "عذراً، حدث خطأ. يرجى المحاولة مرة أخرى أو مراسلتنا مباشرة.",
+      "requiredFields": "يرجى ملء جميع الحقول المطلوبة."
+    },
+    "info": {
+      "emailTitle": "البريد الإلكتروني",
+      "emailValue": "appskiesltd@gmail.com",
+      "responseTitle": "رد سريع",
+      "responseValue": "عادة نرد خلال 24 ساعة"
+    }
   }
 }
