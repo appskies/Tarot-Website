@@ -105,11 +105,11 @@
     "metaTitle": "Privacy Policy - Zodya",
     "metaDescription": "Zodya Privacy Policy - Learn how we protect your data and privacy.",
     "backLink": "Back to Home",
-    "lastUpdated": "Last updated: November 2024",
+    "lastUpdated": "Last updated: February 2026",
     "section1": {
       "title": "1. Introduction",
       "p1": "Welcome to Zodya (\"Company,\" \"we,\" \"our,\" or \"us\"). We are committed to protecting your privacy and ensuring you have a positive experience when using our tarot reading, coffee cup reading, palm reading, and horoscope mobile application (\"App\" or \"Service\").",
-      "p2": "This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our mobile application available on the Apple App Store. Please read this policy carefully. By downloading, installing, or using Zodya, you acknowledge that you have read, understood, and agree to be bound by this Privacy Policy.",
+      "p2": "This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our mobile application available on the Apple App Store and Google Play Store. Please read this policy carefully. By downloading, installing, or using Zodya, you acknowledge that you have read, understood, and agree to be bound by this Privacy Policy.",
       "p3": "If you do not agree with the terms of this Privacy Policy, please do not access or use the App."
     },
     "section2": {
@@ -124,21 +124,52 @@
       ],
       "sub2Title": "2.2 Automatically Collected Information",
       "sub2Items": [
-        "<strong>Device Information:</strong> Device type, model, operating system and version, unique device identifiers (such as IDFV), language settings, and mobile network information.",
+        "<strong>Device Information:</strong> Device type, model, operating system and version, unique device identifiers (such as IDFV on iOS or Android Advertising ID on Android), language settings, and mobile network information.",
         "<strong>Usage Data:</strong> Information about how you interact with the App, including features accessed, reading history, session duration, buttons clicked, and pages viewed.",
         "<strong>Log Data:</strong> IP address, access times, app crashes, and system activity.",
-        "<strong>Purchase Information:</strong> Records of in-app purchases and subscriptions processed through Apple's App Store (Apple handles all payment information directly)."
+        "<strong>Purchase Information:</strong> Records of in-app purchases and subscriptions processed through Apple's App Store or Google Play Store (Apple and Google handle all payment information directly)."
       ],
       "sub3Title": "2.3 Information We Do NOT Collect",
       "sub3Items": [
         "We do NOT collect precise geolocation data.",
         "We do NOT access your contacts, calendar, or other personal files.",
         "We do NOT track you across other apps or websites (we do not participate in cross-app tracking).",
-        "We do NOT collect payment card information (all payments are processed by Apple)."
+        "We do NOT collect payment card information (all payments are processed by Apple or Google)."
       ]
     },
     "section3": {
-      "title": "3. How We Use Your Information",
+      "title": "3. Google Play Data Safety Summary",
+      "intro": "The following summary is provided to support the Google Play Data Safety section and gives a clear overview of data types collected, their purposes, and whether they are shared.",
+      "sub1Title": "3.1 Data Types Collected",
+      "sub1Items": [
+        "<strong>Personal Information</strong> (name, email, date of birth) — Purpose: App functionality, account management — Shared: No",
+        "<strong>Photos</strong> (coffee cup, palm images) — Purpose: App functionality (generating readings) — Shared: No — Deleted within 24 hours",
+        "<strong>App Activity</strong> (reading history, in-app actions) — Purpose: Analytics, personalization — Shared: With analytics providers (Firebase)",
+        "<strong>Device or Other IDs</strong> (device ID, advertising ID) — Purpose: Analytics, diagnostics — Shared: With analytics providers (Firebase)",
+        "<strong>App Info and Performance</strong> (crash logs, performance data) — Purpose: Diagnostics — Shared: With Firebase Crashlytics",
+        "<strong>Purchase History</strong> (subscription and purchase records) — Purpose: Subscription management — Shared: With RevenueCat"
+      ],
+      "sub2Title": "3.2 Data Handling Practices",
+      "sub2Items": [
+        "All data in transit is encrypted using TLS/SSL.",
+        "All data at rest is encrypted using AES-256 encryption.",
+        "Users can request data deletion via in-app account deletion or by contacting appskiesltd@gmail.com.",
+        "Data is not sold to third parties."
+      ]
+    },
+    "section4": {
+      "title": "4. Android Permissions",
+      "intro": "When you use Zodya on an Android device, the App may request the following permissions:",
+      "items": [
+        "<strong>Camera:</strong> Required for coffee cup reading and palm reading photo capture. Photos are processed and deleted within 24 hours.",
+        "<strong>Storage / Photos:</strong> Required to select existing photos from your device for coffee cup or palm readings.",
+        "<strong>Internet:</strong> Required for app functionality, fetching readings, analytics, and delivering content.",
+        "<strong>Notifications:</strong> Required to send you daily horoscope alerts, reading reminders, and app updates. You can disable this in your device settings at any time."
+      ],
+      "outro": "We only use these permissions for the specific purposes described above. We do not access your camera or photo library in the background or for any purpose other than providing readings you explicitly request."
+    },
+    "section5": {
+      "title": "5. How We Use Your Information",
       "intro": "We use the information we collect for the following purposes:",
       "items": [
         "<strong>Service Delivery:</strong> To provide, operate, and maintain our App and its features, including delivering tarot readings, coffee cup readings, palm readings, and horoscopes.",
@@ -147,12 +178,13 @@
         "<strong>Transaction Processing:</strong> To process your subscriptions and in-app purchases and send related information.",
         "<strong>Communication:</strong> To send you technical notices, updates, security alerts, and support messages.",
         "<strong>Analytics:</strong> To monitor and analyze usage patterns, trends, and activities to improve our App and user experience.",
+        "<strong>Advertising:</strong> If advertisements are introduced in the future, we may use non-personally identifiable information and, where consent has been provided, advertising identifiers to deliver and measure the effectiveness of ads through third-party advertising networks.",
         "<strong>Safety and Security:</strong> To detect, prevent, and address technical issues, fraud, and illegal activities.",
         "<strong>Legal Compliance:</strong> To comply with applicable laws, regulations, and legal processes."
       ]
     },
-    "section4": {
-      "title": "4. Legal Basis for Processing (EEA/UK Users)",
+    "section6": {
+      "title": "6. Legal Basis for Processing (EEA/UK Users)",
       "intro": "If you are located in the European Economic Area (EEA) or the United Kingdom (UK), we process your personal data based on the following legal grounds:",
       "items": [
         "<strong>Contract Performance:</strong> Processing necessary to provide you with the App and its services.",
@@ -161,8 +193,8 @@
         "<strong>Legal Obligation:</strong> Processing necessary to comply with our legal obligations."
       ]
     },
-    "section5": {
-      "title": "5. Data Retention",
+    "section7": {
+      "title": "7. Data Retention",
       "intro": "We retain your personal data only for as long as necessary to fulfill the purposes for which it was collected:",
       "items": [
         "<strong>Account Data:</strong> Retained while your account is active and for up to 3 years after account deletion for legal and business purposes.",
@@ -172,8 +204,8 @@
       ],
       "outro": "You may request deletion of your data at any time by contacting us or using the account deletion feature within the App."
     },
-    "section6": {
-      "title": "6. Data Storage and Security",
+    "section8": {
+      "title": "8. Data Storage and Security",
       "intro": "We implement industry-standard technical and organizational security measures to protect your personal information:",
       "items": [
         "All data transmissions are encrypted using TLS/SSL (Transport Layer Security).",
@@ -184,8 +216,8 @@
       ],
       "outro": "While we strive to protect your personal information, no method of transmission over the Internet or electronic storage is 100% secure. We cannot guarantee absolute security, but we are committed to maintaining appropriate safeguards."
     },
-    "section7": {
-      "title": "7. Sharing and Disclosure of Information",
+    "section9": {
+      "title": "9. Sharing and Disclosure of Information",
       "intro": "We do not sell, rent, or trade your personal information to third parties. We may share your information only in the following circumstances:",
       "items": [
         "<strong>Service Providers:</strong> With trusted third-party service providers who assist us in operating our App, subject to confidentiality obligations (e.g., cloud hosting, analytics).",
@@ -195,21 +227,36 @@
         "<strong>With Your Consent:</strong> In any other circumstances where you have provided explicit consent."
       ]
     },
-    "section8": {
-      "title": "8. Third-Party Services",
+    "section10": {
+      "title": "10. Third-Party Services",
       "intro": "Our App may integrate with or use the following third-party services:",
       "items": [
-        "<strong>Apple App Store:</strong> For app distribution, in-app purchases, and subscription management. Apple's privacy policy applies to payment processing.",
-        "<strong>Firebase (Google):</strong> For crash reporting, analytics, and performance monitoring.",
+        "<strong>Apple App Store:</strong> For app distribution, in-app purchases, and subscription management on iOS devices. Apple's privacy policy applies to payment processing.",
+        "<strong>Google Play Store:</strong> For app distribution, in-app purchases, and subscription management on Android devices. Google's privacy policy applies to payment processing.",
+        "<strong>Google Play Services:</strong> For core Android functionality, authentication, and app updates on Android devices.",
+        "<strong>Firebase (Google):</strong> For crash reporting (Crashlytics), analytics (Google Analytics for Firebase), performance monitoring, and cloud messaging for push notifications.",
         "<strong>RevenueCat:</strong> For subscription management and analytics.",
         "<strong>Cloud Infrastructure:</strong> For secure data storage and processing."
       ],
       "outro": "These third parties have their own privacy policies governing their collection and use of information. We encourage you to review their policies."
     },
-    "section9": {
-      "title": "9. Your Privacy Rights",
+    "section11": {
+      "title": "11. Advertising",
+      "p1": "Zodya does not currently display advertisements within the App. However, we may introduce advertisements in the future through third-party advertising networks such as Google AdMob.",
+      "p2": "If advertisements are introduced:",
+      "items": [
+        "We will update this Privacy Policy to reflect the specific data collection and sharing practices associated with the advertising network(s) used.",
+        "On iOS devices, we will request your consent through Apple's App Tracking Transparency (ATT) framework before any ad-related tracking occurs.",
+        "On Android devices, you will be able to opt out of personalized advertisements through your device's Google Settings (Settings > Google > Ads > Opt out of Ads Personalization).",
+        "You will always have the option to receive non-personalized ads based on contextual information only.",
+        "Premium subscription plans may offer an ad-free or reduced-ad experience."
+      ],
+      "outro": "We will notify you of any changes related to advertising through an App update and a revision of this Privacy Policy."
+    },
+    "section12": {
+      "title": "12. Your Privacy Rights",
       "intro": "Depending on your location, you may have certain rights regarding your personal data:",
-      "sub1Title": "9.1 General Rights (All Users)",
+      "sub1Title": "12.1 General Rights (All Users)",
       "sub1Items": [
         "<strong>Access:</strong> Request a copy of the personal data we hold about you.",
         "<strong>Correction:</strong> Request correction of inaccurate or incomplete personal data.",
@@ -217,7 +264,7 @@
         "<strong>Opt-out:</strong> Opt out of marketing communications at any time.",
         "<strong>Account Deletion:</strong> Delete your account through the App settings or by contacting us."
       ],
-      "sub2Title": "9.2 European Economic Area (EEA) and UK Residents (GDPR)",
+      "sub2Title": "12.2 European Economic Area (EEA) and UK Residents (GDPR)",
       "sub2Intro": "Under the General Data Protection Regulation (GDPR), you have additional rights:",
       "sub2Items": [
         "<strong>Data Portability:</strong> Receive your data in a structured, commonly used, machine-readable format.",
@@ -226,7 +273,7 @@
         "<strong>Withdraw Consent:</strong> Withdraw consent at any time where processing is based on consent.",
         "<strong>Lodge Complaint:</strong> Lodge a complaint with a supervisory authority."
       ],
-      "sub3Title": "9.3 California Residents (CCPA/CPRA)",
+      "sub3Title": "12.3 California Residents (CCPA/CPRA)",
       "sub3Intro": "Under the California Consumer Privacy Act (CCPA) and California Privacy Rights Act (CPRA), California residents have additional rights:",
       "sub3Items": [
         "<strong>Right to Know:</strong> Request disclosure of what personal information we collect, use, disclose, and sell.",
@@ -238,23 +285,61 @@
       ],
       "sub3Outro": "To exercise these rights, contact us at appskiesltd@gmail.com. We will respond within 45 days as required by law."
     },
-    "section10": {
-      "title": "10. Apple App Tracking Transparency",
-      "intro": "In compliance with Apple's App Tracking Transparency (ATT) framework:",
-      "items": [
-        "We do NOT track you across apps and websites owned by other companies.",
-        "We do NOT use your data for targeted advertising purposes.",
+    "section13": {
+      "title": "13. Account and Data Deletion",
+      "intro": "In accordance with Apple App Store and Google Play Store requirements, we provide the ability to delete your account and all associated data.",
+      "sub1Title": "13.1 How to Delete Your Account",
+      "sub1Items": [
+        "<strong>In-App:</strong> Go to Settings > Account > Delete Account within the App.",
+        "<strong>By Email:</strong> Send a request to appskiesltd@gmail.com with the subject line \"Account Deletion Request\" from the email address associated with your account.",
+        "<strong>Via Contact Form:</strong> Submit a deletion request through our contact page at https://zodyatarot.app/contact.html."
+      ],
+      "sub2Title": "13.2 What Happens When You Delete Your Account",
+      "sub2Items": [
+        "Your profile information, reading history, and preferences are permanently deleted within 30 days.",
+        "User-uploaded photos (if any remain) are deleted immediately.",
+        "Transaction records may be retained for up to 7 years as required by tax and financial regulations.",
+        "Anonymized, aggregated usage data that cannot identify you may be retained for analytics purposes."
+      ],
+      "sub3Title": "13.3 Important Notice Regarding Subscriptions",
+      "sub3Text": "Deleting your account does NOT automatically cancel any active subscriptions. You must cancel your subscription separately through the Apple App Store or Google Play Store before or after deleting your account to avoid further charges.",
+      "sub4Title": "13.4 Data Deletion Without Account Deletion",
+      "sub4Text": "You may request deletion of specific data (such as reading history) without deleting your entire account by contacting us at appskiesltd@gmail.com."
+    },
+    "section14": {
+      "title": "14. Tracking, Advertising, and Ad Personalization",
+      "sub1Title": "14.1 Apple App Tracking Transparency (iOS)",
+      "sub1Intro": "In compliance with Apple's App Tracking Transparency (ATT) framework:",
+      "sub1Items": [
+        "We do NOT currently track you across apps and websites owned by other companies.",
+        "We do NOT currently use your data for targeted advertising purposes.",
         "We do NOT share your data with data brokers.",
-        "If we ever implement tracking features in the future, we will request your permission through Apple's ATT prompt before any tracking occurs."
+        "If we implement tracking or advertising features in the future, we will request your permission through Apple's ATT prompt before any tracking occurs."
+      ],
+      "sub2Title": "14.2 Google Play and Android (Android)",
+      "sub2Intro": "On Android devices:",
+      "sub2Items": [
+        "We currently do not serve personalized advertisements.",
+        "If personalized ads are introduced in the future, you can opt out by going to Settings > Google > Ads > Opt out of Ads Personalization on your Android device.",
+        "Non-personalized ads (if introduced) may still be shown based on contextual information such as the content you are viewing.",
+        "We collect the Android Advertising ID solely for analytics purposes. This identifier is not currently used for ad targeting."
+      ],
+      "sub3Title": "14.3 Ad Data Sharing",
+      "sub3Items": [
+        "We do not currently share any data with advertising networks.",
+        "We do not sell your personal information to advertisers.",
+        "If advertising is introduced, any ad-related data collection will be clearly disclosed in an updated version of this Privacy Policy."
       ]
     },
-    "section11": {
-      "title": "11. Children's Privacy",
+    "section15": {
+      "title": "15. Children's Privacy",
       "p1": "Zodya is not directed to children under the age of 13 (or 16 in the EEA/UK). We do not knowingly collect personal information from children under these ages.",
-      "p2": "If you are a parent or guardian and believe that your child has provided us with personal information without your consent, please contact us immediately at appskiesltd@gmail.com. If we become aware that we have collected personal information from a child without verification of parental consent, we will take immediate steps to delete that information from our servers."
+      "p2": "If you are a parent or guardian and believe that your child has provided us with personal information without your consent, please contact us immediately at appskiesltd@gmail.com. If we become aware that we have collected personal information from a child without verification of parental consent, we will take immediate steps to delete that information from our servers.",
+      "p3": "In compliance with the Children's Online Privacy Protection Act (COPPA) and Google Play Families Policy, we do not knowingly serve personalized advertisements to children under 13. If the App is used by a user under the applicable age threshold, any future advertisements will be configured to comply with COPPA by serving only limited, non-personalized content.",
+      "p4": "We use age-gating mechanisms at registration to prevent children under the applicable age threshold from creating accounts."
     },
-    "section12": {
-      "title": "12. International Data Transfers",
+    "section16": {
+      "title": "16. International Data Transfers",
       "p1": "Your information may be transferred to, stored, and processed in countries other than your country of residence, including the United States and other countries where our service providers operate.",
       "p2": "If you are located in the EEA, UK, or Switzerland, we ensure that any transfer of personal data to countries outside these regions is protected by:",
       "items": [
@@ -263,16 +348,17 @@
         "Adequacy decisions where applicable."
       ]
     },
-    "section13": {
-      "title": "13. Do Not Track Signals",
+    "section17": {
+      "title": "17. Do Not Track Signals",
       "p1": "Some browsers have a \"Do Not Track\" (DNT) feature that sends a signal to websites you visit indicating you do not want to be tracked. Our App does not respond to DNT signals because we do not track users across third-party websites. However, we honor your privacy choices as described in this Privacy Policy."
     },
-    "section14": {
-      "title": "14. Push Notifications",
-      "p1": "We may send you push notifications regarding your readings, horoscopes, and App updates. You can opt out of receiving push notifications at any time by adjusting your notification settings in your device's settings menu."
+    "section18": {
+      "title": "18. Push Notifications",
+      "p1": "We may send you push notifications regarding your readings, horoscopes, and App updates. On iOS devices, push notifications are delivered through Apple Push Notification Service (APNs). On Android devices, push notifications are delivered through Firebase Cloud Messaging (FCM).",
+      "p2": "You can opt out of receiving push notifications at any time by adjusting your notification settings in your device's settings menu."
     },
-    "section15": {
-      "title": "15. Changes to This Privacy Policy",
+    "section19": {
+      "title": "19. Changes to This Privacy Policy",
       "intro": "We may update this Privacy Policy from time to time to reflect changes in our practices or for legal, operational, or regulatory reasons. When we make material changes:",
       "items": [
         "We will update the \"Last updated\" date at the top of this policy.",
@@ -281,8 +367,8 @@
       ],
       "outro": "We encourage you to review this Privacy Policy periodically."
     },
-    "section16": {
-      "title": "16. Contact Us",
+    "section20": {
+      "title": "20. Contact Us",
       "p1": "If you have any questions, concerns, or requests regarding this Privacy Policy or our data practices, please contact us:",
       "email": "Email: appskiesltd@gmail.com",
       "p2": "We will respond to your inquiry within 30 days, or within the timeframe required by applicable law.",
@@ -294,7 +380,7 @@
     "metaTitle": "Terms of Service - Zodya",
     "metaDescription": "Zodya Terms of Service - Read our terms and conditions.",
     "backLink": "Back to Home",
-    "lastUpdated": "Last updated: November 2024",
+    "lastUpdated": "Last updated: February 2026",
     "section1": {
       "title": "1. Acceptance of Terms",
       "p1": "By downloading, installing, accessing, or using the Zodya mobile application (\"App,\" \"Service,\" or \"Application\"), you (\"User,\" \"you,\" or \"your\") agree to be legally bound by these Terms of Service (\"Terms,\" \"Agreement,\" or \"Terms of Service\"). These Terms constitute a legally binding agreement between you and Zodya (\"Company,\" \"we,\" \"our,\" or \"us\").",
@@ -312,10 +398,23 @@
         "Zodiac compatibility readings",
         "Personalized spiritual guidance and mystical insights"
       ],
-      "outro": "The App is available for download on the Apple App Store. Certain features may require a paid subscription or in-app purchases."
+      "outro": "The App is available for download on the Apple App Store and Google Play Store. Certain features may require a paid subscription or in-app purchases."
     },
     "section3": {
-      "title": "3. Eligibility and Age Requirements",
+      "title": "3. Advertisements",
+      "p1": "Zodya may in the future display advertisements within the App provided by third-party advertising networks, including but not limited to Google AdMob.",
+      "p2": "By using the App, you acknowledge and agree that:",
+      "items": [
+        "Third-party advertisements may be displayed during your use of the App in the future.",
+        "Ad content is provided by third-party advertisers and is not endorsed by Zodya.",
+        "We are not responsible for the content, accuracy, or availability of any third-party advertisements.",
+        "Interacting with advertisements may redirect you to third-party websites or services governed by their own terms and privacy policies.",
+        "Ad frequency and placement may vary and may be adjusted at our sole discretion.",
+        "Premium subscription plans may offer an ad-free or reduced-ad experience, as described in the applicable subscription plan details."
+      ]
+    },
+    "section4": {
+      "title": "4. Eligibility and Age Requirements",
       "intro": "To use the App, you must:",
       "items": [
         "Be at least 13 years of age (or 16 years of age in the European Economic Area)",
@@ -325,46 +424,52 @@
       "p1": "If you are between 13 and 18 years old (or between 16 and 18 in the EEA), you must have your parent or legal guardian's permission to use the App and they must agree to these Terms on your behalf.",
       "p2": "By using the App, you represent and warrant that you meet all eligibility requirements. If you do not meet these requirements, you must not access or use the App."
     },
-    "section4": {
-      "title": "4. User Accounts",
-      "sub1": "<strong>4.1 Account Creation:</strong> To access certain features of the App, you may be required to create an account. When creating an account, you agree to provide accurate, current, and complete information.",
-      "sub2": "<strong>4.2 Account Security:</strong> You are solely responsible for maintaining the confidentiality of your account credentials (username and password) and for all activities that occur under your account. You agree to:",
+    "section5": {
+      "title": "5. User Accounts",
+      "sub1": "<strong>5.1 Account Creation:</strong> To access certain features of the App, you may be required to create an account. When creating an account, you agree to provide accurate, current, and complete information.",
+      "sub2": "<strong>5.2 Account Security:</strong> You are solely responsible for maintaining the confidentiality of your account credentials (username and password) and for all activities that occur under your account. You agree to:",
       "sub2Items": [
         "Keep your password secure and confidential",
         "Notify us immediately of any unauthorized access or use of your account",
         "Not share your account credentials with any third party",
         "Not create multiple accounts for deceptive purposes"
       ],
-      "sub3": "<strong>4.3 Account Termination:</strong> We reserve the right to suspend, disable, or delete your account at any time, with or without notice, for any reason, including violation of these Terms."
+      "sub3": "<strong>5.3 Account Termination:</strong> We reserve the right to suspend, disable, or delete your account at any time, with or without notice, for any reason, including violation of these Terms.",
+      "sub4": "<strong>5.4 Account Deletion:</strong> In compliance with Apple App Store and Google Play Store requirements, you have the right to delete your account at any time. You can delete your account by:",
+      "sub4Items": [
+        "Using the account deletion feature in the App (Settings > Account > Delete Account)",
+        "Contacting us at appskiesltd@gmail.com"
+      ],
+      "sub4Outro": "Upon account deletion, your personal data will be handled as described in our Privacy Policy. Please note that deleting your account does not cancel any active subscriptions; you must cancel subscriptions separately through the Apple App Store or Google Play Store."
     },
-    "section5": {
-      "title": "5. Subscriptions and In-App Purchases",
-      "sub1": "<strong>5.1 Premium Features:</strong> Zodya offers subscription plans and in-app purchases to access premium features and content.",
-      "sub2Title": "<strong>5.2 Payment Terms:</strong>",
+    "section6": {
+      "title": "6. Subscriptions and In-App Purchases",
+      "sub1": "<strong>6.1 Premium Features:</strong> Zodya offers subscription plans and in-app purchases to access premium features and content.",
+      "sub2Title": "<strong>6.2 Payment Terms:</strong>",
       "sub2Items": [
-        "Payment will be charged to your Apple ID account at confirmation of purchase.",
-        "All payments are processed by Apple through the App Store. We do not collect or store your payment information.",
+        "Payment will be charged to your Apple ID account or Google Play account at confirmation of purchase.",
+        "All payments are processed by Apple through the App Store or by Google through Google Play Store. We do not collect or store your payment information.",
         "Prices are displayed in your local currency and may vary by region."
       ],
-      "sub3Title": "<strong>5.3 Subscription Auto-Renewal:</strong>",
+      "sub3Title": "<strong>6.3 Subscription Auto-Renewal:</strong>",
       "sub3Items": [
         "Subscriptions automatically renew unless auto-renewal is turned off at least 24 hours before the end of the current subscription period.",
         "Your account will be charged for renewal within 24 hours prior to the end of the current period at the then-current subscription rate.",
-        "You can manage and cancel your subscriptions by going to your Account Settings in the App Store after purchase."
+        "You can manage and cancel your subscriptions by going to your Account Settings in the Apple App Store or Google Play Store after purchase."
       ],
-      "sub4Title": "<strong>5.4 Free Trials:</strong>",
+      "sub4Title": "<strong>6.4 Free Trials:</strong>",
       "sub4Items": [
         "We may offer free trial periods for certain subscriptions.",
         "Any unused portion of a free trial period will be forfeited when you purchase a subscription.",
-        "Free trials may only be used once per Apple ID."
+        "Free trials may only be used once per Apple ID or Google Play account."
       ],
-      "sub5": "<strong>5.5 Refunds:</strong> All purchases are final and non-refundable, except as required by applicable law or as determined by Apple's refund policies. For refund requests, please contact Apple Support directly."
+      "sub5": "<strong>6.5 Refunds:</strong> All purchases are final and non-refundable, except as required by applicable law or as determined by Apple's or Google's respective refund policies. For refund requests, please contact Apple Support or Google Play Support directly."
     },
-    "section6": {
-      "title": "6. Entertainment Purposes Disclaimer - IMPORTANT",
+    "section7": {
+      "title": "7. Entertainment Purposes Disclaimer - IMPORTANT",
       "warning": "PLEASE READ THIS SECTION CAREFULLY.",
       "intro": "ALL READINGS, PREDICTIONS, INTERPRETATIONS, AND CONTENT PROVIDED BY ZODYA ARE FOR ENTERTAINMENT PURPOSES ONLY. The App is designed to provide a fun, engaging, and entertaining experience inspired by traditional fortune telling and spiritual practices from various cultures around the world.",
-      "sub1Title": "<strong>6.1 No Professional Advice:</strong> The content provided through the App does NOT constitute and should NOT be construed as:",
+      "sub1Title": "<strong>7.1 No Professional Advice:</strong> The content provided through the App does NOT constitute and should NOT be construed as:",
       "sub1Items": [
         "Professional, medical, health, or healthcare advice",
         "Legal advice or legal services",
@@ -373,19 +478,19 @@
         "Relationship or marriage counseling",
         "Any other form of professional advice or services"
       ],
-      "sub2": "<strong>6.2 Consult Professionals:</strong> You should always seek the advice of qualified professionals for any important life decisions, health concerns, legal matters, financial decisions, or any other matters requiring professional expertise. Never disregard professional advice or delay seeking it because of something you have read or received through the App.",
-      "sub3": "<strong>6.3 No Guarantees:</strong> We make no representations, warranties, or guarantees regarding the accuracy, reliability, completeness, or timeliness of any readings, predictions, or content provided through the App. Results and experiences may vary.",
-      "sub4": "<strong>6.4 Personal Responsibility:</strong> You acknowledge that any actions you take based on information received through the App are taken at your own risk and sole responsibility. We are not responsible for any decisions you make or actions you take based on the content provided."
+      "sub2": "<strong>7.2 Consult Professionals:</strong> You should always seek the advice of qualified professionals for any important life decisions, health concerns, legal matters, financial decisions, or any other matters requiring professional expertise. Never disregard professional advice or delay seeking it because of something you have read or received through the App.",
+      "sub3": "<strong>7.3 No Guarantees:</strong> We make no representations, warranties, or guarantees regarding the accuracy, reliability, completeness, or timeliness of any readings, predictions, or content provided through the App. Results and experiences may vary.",
+      "sub4": "<strong>7.4 Personal Responsibility:</strong> You acknowledge that any actions you take based on information received through the App are taken at your own risk and sole responsibility. We are not responsible for any decisions you make or actions you take based on the content provided."
     },
-    "section7": {
-      "title": "7. User Content and Conduct",
-      "sub1Title": "<strong>7.1 User Content:</strong> By uploading photos or other content to the App (such as coffee cup images or palm photos), you:",
+    "section8": {
+      "title": "8. User Content and Conduct",
+      "sub1Title": "<strong>8.1 User Content:</strong> By uploading photos or other content to the App (such as coffee cup images or palm photos), you:",
       "sub1Items": [
         "Grant us a non-exclusive, royalty-free license to use, process, and analyze such content solely for the purpose of providing readings",
         "Represent that you have all necessary rights to upload such content",
         "Acknowledge that uploaded photos are processed for readings and deleted according to our Privacy Policy"
       ],
-      "sub2Title": "<strong>7.2 Prohibited Conduct:</strong> When using the App, you agree NOT to:",
+      "sub2Title": "<strong>8.2 Prohibited Conduct:</strong> When using the App, you agree NOT to:",
       "sub2Items": [
         "Use the App for any illegal, unauthorized, or fraudulent purpose",
         "Violate any applicable laws, regulations, or third-party rights",
@@ -401,10 +506,10 @@
         "Circumvent or attempt to circumvent any access restrictions or security measures"
       ]
     },
-    "section8": {
-      "title": "8. Intellectual Property Rights",
-      "sub1": "<strong>8.1 Our Intellectual Property:</strong> All content, features, and functionality of the App, including but not limited to text, graphics, logos, icons, images, audio clips, video clips, data compilations, software, and the compilation thereof, are the exclusive property of Zodya or its licensors and are protected by international copyright, trademark, patent, trade secret, and other intellectual property laws.",
-      "sub2Title": "<strong>8.2 Restrictions:</strong> You may NOT:",
+    "section9": {
+      "title": "9. Intellectual Property Rights",
+      "sub1": "<strong>9.1 Our Intellectual Property:</strong> All content, features, and functionality of the App, including but not limited to text, graphics, logos, icons, images, audio clips, video clips, data compilations, software, and the compilation thereof, are the exclusive property of Zodya or its licensors and are protected by international copyright, trademark, patent, trade secret, and other intellectual property laws.",
+      "sub2Title": "<strong>9.2 Restrictions:</strong> You may NOT:",
       "sub2Items": [
         "Copy, reproduce, distribute, or create derivative works of any content from the App",
         "Modify, adapt, translate, or reverse engineer any part of the App",
@@ -412,10 +517,10 @@
         "Use our trademarks, logos, or brand elements without prior written consent",
         "Use the App or its content for any commercial purpose without authorization"
       ],
-      "sub3": "<strong>8.3 Limited License:</strong> Subject to your compliance with these Terms, we grant you a limited, non-exclusive, non-transferable, revocable license to download, install, and use the App for your personal, non-commercial use on devices you own or control."
+      "sub3": "<strong>9.3 Limited License:</strong> Subject to your compliance with these Terms, we grant you a limited, non-exclusive, non-transferable, revocable license to download, install, and use the App for your personal, non-commercial use on devices you own or control."
     },
-    "section9": {
-      "title": "9. Disclaimer of Warranties",
+    "section10": {
+      "title": "10. Disclaimer of Warranties",
       "intro": "THE APP AND ALL CONTENT, FEATURES, AND SERVICES PROVIDED THROUGH THE APP ARE PROVIDED ON AN \"AS IS\" AND \"AS AVAILABLE\" BASIS WITHOUT WARRANTIES OF ANY KIND, EITHER EXPRESS OR IMPLIED.",
       "p1": "TO THE FULLEST EXTENT PERMITTED BY APPLICABLE LAW, WE DISCLAIM ALL WARRANTIES, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO:",
       "items": [
@@ -426,10 +531,10 @@
       ],
       "outro": "YOUR USE OF THE APP IS AT YOUR SOLE RISK. WE DO NOT WARRANT THAT THE RESULTS OBTAINED FROM THE USE OF THE APP WILL BE ACCURATE OR RELIABLE."
     },
-    "section10": {
-      "title": "10. Limitation of Liability",
+    "section11": {
+      "title": "11. Limitation of Liability",
       "intro": "TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW:",
-      "sub1Title": "<strong>10.1</strong> IN NO EVENT SHALL ZODYA, ITS AFFILIATES, DIRECTORS, OFFICERS, EMPLOYEES, AGENTS, PARTNERS, SUPPLIERS, OR LICENSORS BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, PUNITIVE, OR EXEMPLARY DAMAGES, INCLUDING BUT NOT LIMITED TO:",
+      "sub1Title": "<strong>11.1</strong> IN NO EVENT SHALL ZODYA, ITS AFFILIATES, DIRECTORS, OFFICERS, EMPLOYEES, AGENTS, PARTNERS, SUPPLIERS, OR LICENSORS BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, PUNITIVE, OR EXEMPLARY DAMAGES, INCLUDING BUT NOT LIMITED TO:",
       "sub1Items": [
         "Loss of profits, revenue, or business",
         "Loss of data or information",
@@ -439,12 +544,12 @@
         "Any damages arising from any content or readings provided through the App",
         "Any damages arising from unauthorized access to or alteration of your data"
       ],
-      "sub2": "<strong>10.2</strong> OUR TOTAL AGGREGATE LIABILITY FOR ANY CLAIMS ARISING FROM OR RELATING TO THESE TERMS OR YOUR USE OF THE APP SHALL NOT EXCEED THE GREATER OF: (A) THE AMOUNT YOU PAID TO US IN THE TWELVE (12) MONTHS PRECEDING THE CLAIM, OR (B) ONE HUNDRED US DOLLARS ($100).",
-      "sub3": "<strong>10.3</strong> THESE LIMITATIONS APPLY REGARDLESS OF THE LEGAL THEORY ON WHICH THE CLAIM IS BASED, WHETHER IN CONTRACT, TORT (INCLUDING NEGLIGENCE), STRICT LIABILITY, OR OTHERWISE, AND EVEN IF WE HAVE BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.",
-      "sub4": "<strong>10.4</strong> SOME JURISDICTIONS DO NOT ALLOW THE EXCLUSION OR LIMITATION OF CERTAIN DAMAGES. IF THESE LAWS APPLY TO YOU, SOME OR ALL OF THE ABOVE LIMITATIONS MAY NOT APPLY, AND YOU MAY HAVE ADDITIONAL RIGHTS."
+      "sub2": "<strong>11.2</strong> OUR TOTAL AGGREGATE LIABILITY FOR ANY CLAIMS ARISING FROM OR RELATING TO THESE TERMS OR YOUR USE OF THE APP SHALL NOT EXCEED THE GREATER OF: (A) THE AMOUNT YOU PAID TO US IN THE TWELVE (12) MONTHS PRECEDING THE CLAIM, OR (B) ONE HUNDRED US DOLLARS ($100).",
+      "sub3": "<strong>11.3</strong> THESE LIMITATIONS APPLY REGARDLESS OF THE LEGAL THEORY ON WHICH THE CLAIM IS BASED, WHETHER IN CONTRACT, TORT (INCLUDING NEGLIGENCE), STRICT LIABILITY, OR OTHERWISE, AND EVEN IF WE HAVE BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.",
+      "sub4": "<strong>11.4</strong> SOME JURISDICTIONS DO NOT ALLOW THE EXCLUSION OR LIMITATION OF CERTAIN DAMAGES. IF THESE LAWS APPLY TO YOU, SOME OR ALL OF THE ABOVE LIMITATIONS MAY NOT APPLY, AND YOU MAY HAVE ADDITIONAL RIGHTS."
     },
-    "section11": {
-      "title": "11. Indemnification",
+    "section12": {
+      "title": "12. Indemnification",
       "intro": "You agree to indemnify, defend, and hold harmless Zodya and its affiliates, directors, officers, employees, agents, partners, suppliers, and licensors from and against any and all claims, demands, losses, damages, liabilities, costs, and expenses (including reasonable attorneys' fees) arising out of or related to:",
       "items": [
         "Your use or misuse of the App",
@@ -456,18 +561,18 @@
       ],
       "outro": "We reserve the right to assume the exclusive defense and control of any matter subject to indemnification by you, in which case you agree to cooperate with our defense of such claim."
     },
-    "section12": {
-      "title": "12. Dispute Resolution and Arbitration",
-      "warning": "PLEASE READ THIS SECTION CAREFULLY. IT AFFECTS YOUR LEGAL RIGHTS, INCLUDING YOUR RIGHT TO FILE A LAWSUIT IN COURT.",
-      "sub1": "<strong>12.1 Informal Resolution:</strong> Before filing any formal dispute, you agree to first contact us at appskiesltd@gmail.com and attempt to resolve any dispute informally for at least 30 days.",
-      "sub2": "<strong>12.2 Binding Arbitration:</strong> If we cannot resolve a dispute informally, any dispute, claim, or controversy arising out of or relating to these Terms or your use of the App shall be resolved by binding arbitration, rather than in court, except that you may assert claims in small claims court if your claims qualify.",
-      "sub3": "<strong>12.3 Class Action Waiver:</strong> YOU AND ZODYA AGREE THAT EACH MAY BRING CLAIMS AGAINST THE OTHER ONLY IN YOUR OR ITS INDIVIDUAL CAPACITY AND NOT AS A PLAINTIFF OR CLASS MEMBER IN ANY PURPORTED CLASS, COLLECTIVE, OR REPRESENTATIVE ACTION. Unless both you and Zodya agree otherwise, the arbitrator may not consolidate more than one person's claims and may not preside over any form of class or representative proceeding.",
-      "sub4": "<strong>12.4 Opt-Out:</strong> You may opt out of this arbitration agreement by sending written notice to appskiesltd@gmail.com within 30 days of first accepting these Terms."
-    },
     "section13": {
-      "title": "13. Termination",
-      "sub1": "<strong>13.1 Termination by You:</strong> You may terminate your account at any time by deleting your account through the App settings or by contacting us. Note that deleting the App does not automatically cancel any active subscriptions.",
-      "sub2Title": "<strong>13.2 Termination by Us:</strong> We reserve the right to suspend, disable, or terminate your access to the App at any time, with or without notice, for any reason, including but not limited to:",
+      "title": "13. Dispute Resolution and Arbitration",
+      "warning": "PLEASE READ THIS SECTION CAREFULLY. IT AFFECTS YOUR LEGAL RIGHTS, INCLUDING YOUR RIGHT TO FILE A LAWSUIT IN COURT.",
+      "sub1": "<strong>13.1 Informal Resolution:</strong> Before filing any formal dispute, you agree to first contact us at appskiesltd@gmail.com and attempt to resolve any dispute informally for at least 30 days.",
+      "sub2": "<strong>13.2 Binding Arbitration:</strong> If we cannot resolve a dispute informally, any dispute, claim, or controversy arising out of or relating to these Terms or your use of the App shall be resolved by binding arbitration, rather than in court, except that you may assert claims in small claims court if your claims qualify.",
+      "sub3": "<strong>13.3 Class Action Waiver:</strong> YOU AND ZODYA AGREE THAT EACH MAY BRING CLAIMS AGAINST THE OTHER ONLY IN YOUR OR ITS INDIVIDUAL CAPACITY AND NOT AS A PLAINTIFF OR CLASS MEMBER IN ANY PURPORTED CLASS, COLLECTIVE, OR REPRESENTATIVE ACTION. Unless both you and Zodya agree otherwise, the arbitrator may not consolidate more than one person's claims and may not preside over any form of class or representative proceeding.",
+      "sub4": "<strong>13.4 Opt-Out:</strong> You may opt out of this arbitration agreement by sending written notice to appskiesltd@gmail.com within 30 days of first accepting these Terms."
+    },
+    "section14": {
+      "title": "14. Termination",
+      "sub1": "<strong>14.1 Termination by You:</strong> You may terminate your account at any time by deleting your account through the App settings or by contacting us. Note that deleting the App does not automatically cancel any active subscriptions. To cancel subscriptions, manage them through your Apple App Store or Google Play Store account settings.",
+      "sub2Title": "<strong>14.2 Termination by Us:</strong> We reserve the right to suspend, disable, or terminate your access to the App at any time, with or without notice, for any reason, including but not limited to:",
       "sub2Items": [
         "Violation of these Terms",
         "Conduct that we believe is harmful to other users, us, or third parties",
@@ -475,14 +580,14 @@
         "Requests by law enforcement or government agencies",
         "Discontinuation or modification of the App"
       ],
-      "sub3": "<strong>13.3 Effect of Termination:</strong> Upon termination, your right to use the App will immediately cease. Sections that by their nature should survive termination shall survive, including but not limited to: Intellectual Property, Disclaimers, Limitation of Liability, Indemnification, and Dispute Resolution."
-    },
-    "section14": {
-      "title": "14. Third-Party Services and Links",
-      "p1": "The App may contain links to third-party websites, services, or applications that are not owned or controlled by us. We have no control over and assume no responsibility for the content, privacy policies, or practices of any third-party services. Your use of third-party services is at your own risk and subject to their respective terms and conditions."
+      "sub3": "<strong>14.3 Effect of Termination:</strong> Upon termination, your right to use the App will immediately cease. Sections that by their nature should survive termination shall survive, including but not limited to: Intellectual Property, Disclaimers, Limitation of Liability, Indemnification, and Dispute Resolution."
     },
     "section15": {
-      "title": "15. Apple-Specific Terms",
+      "title": "15. Third-Party Services and Links",
+      "p1": "The App may contain links to third-party websites, services, or applications that are not owned or controlled by us. We have no control over and assume no responsibility for the content, privacy policies, or practices of any third-party services. Your use of third-party services is at your own risk and subject to their respective terms and conditions."
+    },
+    "section16": {
+      "title": "16. Apple-Specific Terms",
       "intro": "If you downloaded the App from Apple's App Store, the following additional terms apply:",
       "items": [
         "These Terms are between you and Zodya only, not with Apple. Zodya, not Apple, is solely responsible for the App and its content.",
@@ -493,32 +598,45 @@
         "You must comply with any applicable third-party terms when using the App."
       ]
     },
-    "section16": {
-      "title": "16. Governing Law",
-      "p1": "These Terms shall be governed by and construed in accordance with the laws of the jurisdiction where Zodya operates, without regard to its conflict of law provisions. To the extent that any lawsuit or court proceeding is permitted under these Terms, you and Zodya agree to submit to the personal and exclusive jurisdiction of the courts located within that jurisdiction."
-    },
     "section17": {
-      "title": "17. Severability",
-      "p1": "If any provision of these Terms is found to be invalid, illegal, or unenforceable by a court of competent jurisdiction, such invalidity, illegality, or unenforceability shall not affect any other provision of these Terms, which shall remain in full force and effect. The invalid or unenforceable provision shall be modified to the minimum extent necessary to make it valid and enforceable while preserving the parties' original intent."
+      "title": "17. Google Play-Specific Terms",
+      "intro": "If you downloaded the App from Google Play Store, the following additional terms apply:",
+      "items": [
+        "These Terms are between you and Zodya only, not with Google. Zodya, not Google, is solely responsible for the App and its content.",
+        "Google has no obligation to provide any maintenance or support services for the App.",
+        "Google is not responsible for addressing any claims relating to the App or your use of the App, including product liability claims, any claim that the App fails to conform to any applicable legal or regulatory requirement, and claims arising under consumer protection or similar legislation.",
+        "In the event of any third-party claim that the App or your possession and use of the App infringes that third party's intellectual property rights, Zodya, not Google, will be solely responsible for the investigation, defense, settlement, and discharge of any such intellectual property infringement claim.",
+        "You acknowledge that Google is a third-party beneficiary of these Terms and that Google has the right to enforce these Terms against you.",
+        "Your use of the App must comply with Google Play Store Terms of Service.",
+        "In-app purchases and subscriptions are processed through Google Play Billing. Google's refund policies apply to transactions made through Google Play."
+      ]
     },
     "section18": {
-      "title": "18. Waiver",
-      "p1": "Our failure to enforce any right or provision of these Terms shall not constitute a waiver of such right or provision. Any waiver of any provision of these Terms will be effective only if in writing and signed by Zodya."
+      "title": "18. Governing Law",
+      "p1": "These Terms shall be governed by and construed in accordance with the laws of the jurisdiction where Zodya operates, without regard to its conflict of law provisions. To the extent that any lawsuit or court proceeding is permitted under these Terms, you and Zodya agree to submit to the personal and exclusive jurisdiction of the courts located within that jurisdiction."
     },
     "section19": {
-      "title": "19. Entire Agreement",
-      "p1": "These Terms, together with our Privacy Policy and any other legal notices or policies published by us on the App, constitute the entire agreement between you and Zodya regarding the use of the App, superseding any prior agreements between you and us relating to the App."
+      "title": "19. Severability",
+      "p1": "If any provision of these Terms is found to be invalid, illegal, or unenforceable by a court of competent jurisdiction, such invalidity, illegality, or unenforceability shall not affect any other provision of these Terms, which shall remain in full force and effect. The invalid or unenforceable provision shall be modified to the minimum extent necessary to make it valid and enforceable while preserving the parties' original intent."
     },
     "section20": {
-      "title": "20. Assignment",
-      "p1": "You may not assign or transfer these Terms or your rights and obligations hereunder, in whole or in part, without our prior written consent. We may assign or transfer these Terms without restriction. Subject to the foregoing, these Terms will bind and inure to the benefit of the parties and their respective successors and assigns."
+      "title": "20. Waiver",
+      "p1": "Our failure to enforce any right or provision of these Terms shall not constitute a waiver of such right or provision. Any waiver of any provision of these Terms will be effective only if in writing and signed by Zodya."
     },
     "section21": {
-      "title": "21. Force Majeure",
-      "p1": "We shall not be liable for any failure or delay in performing our obligations under these Terms if such failure or delay results from circumstances beyond our reasonable control, including but not limited to acts of God, natural disasters, war, terrorism, civil unrest, labor disputes, government actions, internet or telecommunications failures, or power outages."
+      "title": "21. Entire Agreement",
+      "p1": "These Terms, together with our Privacy Policy and any other legal notices or policies published by us on the App, constitute the entire agreement between you and Zodya regarding the use of the App, superseding any prior agreements between you and us relating to the App."
     },
     "section22": {
-      "title": "22. Contact Information",
+      "title": "22. Assignment",
+      "p1": "You may not assign or transfer these Terms or your rights and obligations hereunder, in whole or in part, without our prior written consent. We may assign or transfer these Terms without restriction. Subject to the foregoing, these Terms will bind and inure to the benefit of the parties and their respective successors and assigns."
+    },
+    "section23": {
+      "title": "23. Force Majeure",
+      "p1": "We shall not be liable for any failure or delay in performing our obligations under these Terms if such failure or delay results from circumstances beyond our reasonable control, including but not limited to acts of God, natural disasters, war, terrorism, civil unrest, labor disputes, government actions, internet or telecommunications failures, or power outages."
+    },
+    "section24": {
+      "title": "24. Contact Information",
       "p1": "If you have any questions, concerns, or feedback regarding these Terms of Service, please contact us at:",
       "email": "Email: appskiesltd@gmail.com",
       "p2": "We will make reasonable efforts to respond to your inquiries in a timely manner."
