@@ -359,8 +359,28 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 1.8;
 }
 
+/* Hero CTA badges container */
 .hero-cta {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
     margin-bottom: 40px;
+}
+
+/* Final CTA badges container */
+.cta-badges {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+/* Rating section store badges row */
+.store-badges {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .app-store-link {

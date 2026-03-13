@@ -8,7 +8,8 @@
   "nav": {
     "home": "Home",
     "contact": "Contact",
-    "downloadAlt": "Download on the App Store"
+    "downloadAlt": "Download on the App Store",
+    "googlePlayAlt": "Get it on Google Play"
   },
   "hero": {
     "title": "Unlock Your Destiny with <span class=\"highlight\">Mystical</span> Tarot",
@@ -82,7 +83,7 @@
     }
   },
   "rating": {
-    "basedOn": "Based on App Store reviews",
+    "basedOn": "Based on App Store & Google Play reviews",
     "joinText": "Join thousands of users discovering their destiny",
     "scanToDownload": "Scan to download"
   },

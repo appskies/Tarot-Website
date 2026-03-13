@@ -8,7 +8,8 @@
   "nav": {
     "home": "الرئيسية",
     "contact": "اتصل بنا",
-    "downloadAlt": "تحميل من متجر التطبيقات"
+    "downloadAlt": "تحميل من متجر التطبيقات",
+    "googlePlayAlt": "احصل عليه من Google Play"
   },
   "hero": {
     "title": "اكتشف مصيرك مع تاروت <span class=\"highlight\">الغموض</span>",
@@ -82,7 +83,7 @@
     }
   },
   "rating": {
-    "basedOn": "بناءً على تقييمات متجر التطبيقات",
+    "basedOn": "بناءً على تقييمات App Store و Google Play",
     "joinText": "انضم إلى آلاف المستخدمين الذين يكتشفون مصيرهم",
     "scanToDownload": "امسح للتحميل"
   },
