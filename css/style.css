@@ -165,7 +165,7 @@ body {
 .navbar-cta {
     display: flex;
     align-items: center;
-    margin-left: 20px;
+    margin-left: 10px;
     transition: var(--transition-fast);
 }
 
@@ -359,8 +359,31 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 1.8;
 }
 
+/* Hero CTA badges container */
 .hero-cta {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    flex-wrap: wrap;
     margin-bottom: 40px;
+}
+
+/* Final CTA badges container */
+.cta-badges {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+/* Rating section store badges row */
+.store-badges {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .app-store-link {
@@ -1334,7 +1357,7 @@ h1, h2, h3, h4, h5, h6 {
 
 [dir="rtl"] .navbar-cta {
     margin-left: 0;
-    margin-right: 20px;
+    margin-right: 10px;
 }
 
 [dir="rtl"] .navbar-link::after {
