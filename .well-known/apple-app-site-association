@@ -1,0 +1,16 @@
+{
+  "applinks": {
+    "details": [
+      {
+        "appID": "B4F3X886L7.com.huseyinaliyagiz.LearnTarot",
+        "appIDs": ["B4F3X886L7.com.huseyinaliyagiz.LearnTarot"],
+        "components": [
+          { "/": "/coffee", "comment": "Opens Coffee Fortune" },
+          { "/": "/palm", "comment": "Opens Palm Fortune" },
+          { "/": "/horoscope", "comment": "Opens Daily Horoscope" },
+          { "/": "/tarot", "comment": "Opens Three Card Tarot" }
+        ]
+      }
+    ]
+  }
+}
