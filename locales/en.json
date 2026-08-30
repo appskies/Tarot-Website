@@ -106,7 +106,7 @@
     "metaTitle": "Privacy Policy - Zodya",
     "metaDescription": "Zodya Privacy Policy - Learn how we protect your data and privacy.",
     "backLink": "Back to Home",
-    "lastUpdated": "Last updated: February 2026",
+    "lastUpdated": "Last updated: August 30, 2026",
     "section1": {
       "title": "1. Introduction",
       "p1": "Welcome to Zodya (\"Company,\" \"we,\" \"our,\" or \"us\"). We are committed to protecting your privacy and ensuring you have a positive experience when using our tarot reading, coffee cup reading, palm reading, and horoscope mobile application (\"App\" or \"Service\").",
@@ -154,7 +154,7 @@
       "sub2Items": [
         "All data in transit is encrypted using TLS/SSL.",
         "All data at rest is encrypted using AES-256 encryption.",
-        "Users can request data deletion via in-app account deletion or by contacting appskiesltd@gmail.com.",
+        "Users can request data deletion via in-app account deletion or by contacting support@zodyatarot.app.",
         "Data is not sold to third parties."
       ]
     },
@@ -284,7 +284,7 @@
         "<strong>Right to Correct:</strong> Request correction of inaccurate personal information.",
         "<strong>Right to Limit:</strong> Limit the use and disclosure of sensitive personal information."
       ],
-      "sub3Outro": "To exercise these rights, contact us at appskiesltd@gmail.com. We will respond within 45 days as required by law."
+      "sub3Outro": "To exercise these rights, contact us at support@zodyatarot.app. We will respond within 45 days as required by law."
     },
     "section13": {
       "title": "13. Account and Data Deletion",
@@ -292,7 +292,7 @@
       "sub1Title": "13.1 How to Delete Your Account",
       "sub1Items": [
         "<strong>In-App:</strong> Go to Settings > Account > Delete Account within the App.",
-        "<strong>By Email:</strong> Send a request to appskiesltd@gmail.com with the subject line \"Account Deletion Request\" from the email address associated with your account.",
+        "<strong>By Email:</strong> Send a request to support@zodyatarot.app with the subject line \"Account Deletion Request\" from the email address associated with your account.",
         "<strong>Via Contact Form:</strong> Submit a deletion request through our contact page at https://zodyatarot.app/contact.html."
       ],
       "sub2Title": "13.2 What Happens When You Delete Your Account",
@@ -305,7 +305,7 @@
       "sub3Title": "13.3 Important Notice Regarding Subscriptions",
       "sub3Text": "Deleting your account does NOT automatically cancel any active subscriptions. You must cancel your subscription separately through the Apple App Store or Google Play Store before or after deleting your account to avoid further charges.",
       "sub4Title": "13.4 Data Deletion Without Account Deletion",
-      "sub4Text": "You may request deletion of specific data (such as reading history) without deleting your entire account by contacting us at appskiesltd@gmail.com."
+      "sub4Text": "You may request deletion of specific data (such as reading history) without deleting your entire account by contacting us at support@zodyatarot.app."
     },
     "section14": {
       "title": "14. Tracking, Advertising, and Ad Personalization",
@@ -335,7 +335,7 @@
     "section15": {
       "title": "15. Children's Privacy",
       "p1": "Zodya is not directed to children under the age of 13 (or 16 in the EEA/UK). We do not knowingly collect personal information from children under these ages.",
-      "p2": "If you are a parent or guardian and believe that your child has provided us with personal information without your consent, please contact us immediately at appskiesltd@gmail.com. If we become aware that we have collected personal information from a child without verification of parental consent, we will take immediate steps to delete that information from our servers.",
+      "p2": "If you are a parent or guardian and believe that your child has provided us with personal information without your consent, please contact us immediately at support@zodyatarot.app. If we become aware that we have collected personal information from a child without verification of parental consent, we will take immediate steps to delete that information from our servers.",
       "p3": "In compliance with the Children's Online Privacy Protection Act (COPPA) and Google Play Families Policy, we do not knowingly serve personalized advertisements to children under 13. If the App is used by a user under the applicable age threshold, any future advertisements will be configured to comply with COPPA by serving only limited, non-personalized content.",
       "p4": "We use age-gating mechanisms at registration to prevent children under the applicable age threshold from creating accounts."
     },
@@ -371,7 +371,8 @@
     "section20": {
       "title": "20. Contact Us",
       "p1": "If you have any questions, concerns, or requests regarding this Privacy Policy or our data practices, please contact us:",
-      "email": "Email: appskiesltd@gmail.com",
+      "email": "Email: support@zodyatarot.app",
+      "address": "Address: Salih Kanat Sk., Özlem Apt. D:2, Girne/KKTC, Mersin 10, Türkiye",
       "p2": "We will respond to your inquiry within 30 days, or within the timeframe required by applicable law.",
       "p3": "If you are located in the EEA and believe we have not adequately addressed your concerns, you have the right to lodge a complaint with your local data protection supervisory authority."
     }
@@ -439,7 +440,7 @@
       "sub4": "<strong>5.4 Account Deletion:</strong> In compliance with Apple App Store and Google Play Store requirements, you have the right to delete your account at any time. You can delete your account by:",
       "sub4Items": [
         "Using the account deletion feature in the App (Settings > Account > Delete Account)",
-        "Contacting us at appskiesltd@gmail.com"
+        "Contacting us at support@zodyatarot.app"
       ],
       "sub4Outro": "Upon account deletion, your personal data will be handled as described in our Privacy Policy. Please note that deleting your account does not cancel any active subscriptions; you must cancel subscriptions separately through the Apple App Store or Google Play Store."
     },
@@ -565,10 +566,10 @@
     "section13": {
       "title": "13. Dispute Resolution and Arbitration",
       "warning": "PLEASE READ THIS SECTION CAREFULLY. IT AFFECTS YOUR LEGAL RIGHTS, INCLUDING YOUR RIGHT TO FILE A LAWSUIT IN COURT.",
-      "sub1": "<strong>13.1 Informal Resolution:</strong> Before filing any formal dispute, you agree to first contact us at appskiesltd@gmail.com and attempt to resolve any dispute informally for at least 30 days.",
+      "sub1": "<strong>13.1 Informal Resolution:</strong> Before filing any formal dispute, you agree to first contact us at support@zodyatarot.app and attempt to resolve any dispute informally for at least 30 days.",
       "sub2": "<strong>13.2 Binding Arbitration:</strong> If we cannot resolve a dispute informally, any dispute, claim, or controversy arising out of or relating to these Terms or your use of the App shall be resolved by binding arbitration, rather than in court, except that you may assert claims in small claims court if your claims qualify.",
       "sub3": "<strong>13.3 Class Action Waiver:</strong> YOU AND ZODYA AGREE THAT EACH MAY BRING CLAIMS AGAINST THE OTHER ONLY IN YOUR OR ITS INDIVIDUAL CAPACITY AND NOT AS A PLAINTIFF OR CLASS MEMBER IN ANY PURPORTED CLASS, COLLECTIVE, OR REPRESENTATIVE ACTION. Unless both you and Zodya agree otherwise, the arbitrator may not consolidate more than one person's claims and may not preside over any form of class or representative proceeding.",
-      "sub4": "<strong>13.4 Opt-Out:</strong> You may opt out of this arbitration agreement by sending written notice to appskiesltd@gmail.com within 30 days of first accepting these Terms."
+      "sub4": "<strong>13.4 Opt-Out:</strong> You may opt out of this arbitration agreement by sending written notice to support@zodyatarot.app within 30 days of first accepting these Terms."
     },
     "section14": {
       "title": "14. Termination",
@@ -639,7 +640,8 @@
     "section24": {
       "title": "24. Contact Information",
       "p1": "If you have any questions, concerns, or feedback regarding these Terms of Service, please contact us at:",
-      "email": "Email: appskiesltd@gmail.com",
+      "email": "Email: support@zodyatarot.app",
+      "address": "Address: Salih Kanat Sk., Özlem Apt. D:2, Girne/KKTC, Mersin 10, Türkiye",
       "p2": "We will make reasonable efforts to respond to your inquiries in a timely manner."
     }
   },
@@ -661,7 +663,9 @@
     },
     "info": {
       "emailTitle": "Email",
-      "emailValue": "appskiesltd@gmail.com",
+      "emailValue": "support@zodyatarot.app",
+      "addressTitle": "Address",
+      "addressValue": "Salih Kanat Sk., Özlem Apt. D:2, Girne/KKTC, Mersin 10, Türkiye",
       "responseTitle": "Quick Response",
       "responseValue": "We typically respond within 24 hours"
     }
